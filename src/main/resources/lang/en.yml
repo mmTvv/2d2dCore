@@ -1,0 +1,387 @@
+prefix: "&l[&5&l2D&d&l2D&r&l]"
+ignore_successful: "&dPlayer &r %s&r &dadded to ignore&r"
+already_ignoring: "&5You are already ignoring this player"
+ignore_command_syntax: "&5Correct use of the command: /ignore <player_nick>"
+unignore_successful: "&dPlayer &r %s&r &dremoved from ignore&r"
+unignore_not_ignoring: "&5You are not ignoring %s"
+unignore_command_syntax: "&5Please specify the player: /unignore <player_name>"
+ignorelist_successful: "&dIgnored players: &5%s"
+ignorelist_not_ignoring: "&6You are not ignoring anyone"
+ignorelist_failed: "&6Unable to get information about the ignored list."
+whisper_from: "&5%s whispers: &d%s"
+whisper_to: "&5For %s: &d%s"
+whisper_ignoring: "&5%s is ignoring you"
+whisper_you_are_ignoring: "&5You cannot send a message to the player you are ignoring"
+msg_could_not_find_player: "&5Can't find player %s"
+msg_command_syntax: "&dPlease enter the recipient and message: /msg <recipient> <message>"
+reply_player_offline: "&5Player %s is offline"
+reply_no_target: "&5You have not sent a message yet"
+reply_command_syntax: "&5Please enter the message: /r <message>"
+togglechat_chat_enabled: "&dChat is on"
+togglechat_chat_disabled: "&5Chat is off"
+cmdwhitelist_cmd_not_allowed: "&5Command&r %s&r&5 is unavailable"
+chat_cooldown: "&dPlease wait &r %d&r&d seconds before sending the next message"
+delhome_no_homes: "&dYou have no saved houses "
+delhome_specify_home: "&dPlease specify the name of the house to delete. Current houses: (&r%s&r&d)&r"
+delhome_home_not_found: "&dHouse&r %s&r&d not found"
+delhome_success: "&dHouse&r %s&r&d deleted"
+delhome_fail: "&dFailed to remove house&r %s&r"
+home_no_homes: "&dHouses not found"
+home_specify_home: "&dPlease enter a house! Current houses: (&r%s&r&d)&r"
+home_too_close: "&dYou must be&r %d&r&d blocks from spawn to use /home"
+home_success: "&dTeleport to house&r %s&r&d..."
+home_not_found: "&dHouse&r %s&r&d not found"
+sethome_include_name: "&dPlease provide a name for your new house"
+sethome_home_already_exists: "&5House with name&r %s&r&5 already exists"
+sethome_max_reached: "&dThe maximum number of houses has been reached!"
+sethome_success: "&dHouse&r %s &r&d is installed"
+kick_restarting: "&dServer is restarting"
+elytra_too_fast: "&dYou are flying too fast on the elytra"
+elytra_school_zone: "&dYou are currently in a school zone. Please drive at a speed of no more than 15 km/h"
+elytras_disabled: "&dEliters are temporarily disabled due to server hangs. They will be back soon"
+bookban_inventory_clear: "&5Your inventory has been cleared to prevent a bookban"
+bookban_removed_item: "&5Removed all&r&d %s(r) &r&5from your inventory to prevent a bookban"
+kick_lever_ratelimit: "&5You are interacting too quickly"
+kick_pps_limit: "&5You are sending packets too quickly!"
+kick_failed_to_inject: "&5Failed to enter data"
+join_message: "&7%s has joined"
+player_join_first_time: " &7%s joined the server for the first time"
+leave_message: "&7%s left the server"
+kick_message: "&7%s was kicked out for \"%s\""
+could_not_translate_message: "Failed to translate message due to %s"
+message_auto_translated: "The message has been automatically translated.\n\nOriginal text: %s"
+welcome_message: "&dWelcome to 2d2d"
+vote_announcement: "&5%s &6voted for &52d&d2d &6and received free /nc 2 additional rendering distances and 5 additional houses"
+vote_thanks: "&6Thanks for voting for &52d&d2d &6You received free /nc 2 additional rendering distances and 5 additional houses"
+vote_info: " &6You can vote for &52d&d2d &6at &5https://vote.2d2d.org"
+tpa_syntax: "&5Please identify the player to submit the teleport request. /tpa <player>"
+tpa_player_not_online: "&5Player %s is offline"
+tpa_no_request_found: "&5Teleport request not found"
+tpa_self_tpa: "&5You cannot send a teleport request to yourself"
+tpa_request_received: "%s&r&d wants to teleport to you&r /tpayes &dUSERNAME &5/tpano &dUSERNAME"
+tpa_request_sent: "&dRequest sent to player&r %s"
+tpa_already_sent: "&5You already have a pending request"
+tpa_teleporting: "&dTeleportation&r..."
+tpa_request_timeout: "&5Teleportation request expired"
+tpa_request_denied_from: "%s&r&5 rejected your request"
+tpa_request_denied_to: "&dRequest successfully rejected"
+tpa_pending_request: "%s&r &5has a pending request"
+tpa_to_left: "&5/tpa canceled because&r %s&r&5 left the game"
+op_not_allowed: "&5You do not have operator permission"
+framedupe_cooldown: "&5You are too duplicate fast"
+framedupe_items_limit: "&5There are too many items in this chunk so duplication is no longer happening"
+nbtPatch_deleted_item: "&5&6%s&r&5 has been removed from your inventory due to redundant data"
+chest_cooldown: "&5You are opening chests too quickly. Please wait!"
+chestlimiter_deleted_chest: "&5&6%s&r&5 chests were removed because they exceeded the maximum number of &5&6%s&r&5 chests per chunk"
+HelpMessage:
+  - "&5----------------------------------------"
+  - "&dVisit &5https://www.2d2d.org/ &6for more information"
+  - "&5--------------Commands------------------"
+  - "&b/tpa &6to teleport to another player"
+  - "&b/tpayes &6to accept a teleport request"
+  - "&b/tpano &6to reject a teleport request"
+  - "&b/sethome &6to set a house in the current location "
+  - "&b/delhome &6to delete an installed home"
+  - "&b/home &6to teleport to an installed home"
+  - "&b/skin set &6to install your skin"
+  - "&b/vote &6to vote for the server"
+  - "&b/discord &6to receive an invitation to Discord 2d2d"
+  - "&b/kill &6to delete your character"
+  - "&b/ignore &6to ignore other players"
+  - "&b/unignore &6to unignore other players"
+  - "&b/ignorelist &6to show players you are ignoring"
+  - "&b/msg &6to send messages to other players"
+  - "&b/changepass &6to change password"
+  - "&b/joindate &6to view the joining date of yours and others"
+  - "&b/worldstats &6to view the size of the world"
+  - "&b/pvp &6to connect to the 2d2d PVP server"
+  - "&b/lobby &6to connect to the lobby"
+  - "&b/tpsinfo &6to check ticks per second on the server"
+  - "&5----=---------For voters only--------------"
+  - "&b/nc &6to set name color"
+  - "&b/ic &6to set item color"
+  - "&dVisit &bhttps://vote .2d2d.org &6for voting"
+  - "&5-----------Only for donors--------------"
+  - "&b/seen &6for viewing when the player was online in last time"
+  - "&b/echest &6to open your ender-chest"
+  - "&b/nick &6to set an alias"
+  - "&dVisit &bhttps://donate.2d2d.org &6to donate"
+  - "&5---------------------------------------"
+TabList:
+  Header:
+    - ""
+    - "&l[&5&l2D&d&l2D&r&l]"
+    - ""
+    - ""
+  Footer:
+    - ""
+    - "&dTPS:&b &r[&b%tps%&r] &dPing: &r[&b%ping %&r] &dPlayers: &r[&b%players%&r] &dWorking hours: &r[&b%uptime%&r]"
+    - ""
+    - "&7Feedback: admin@2d2d.org"
+    - "&7Discussion: https://ds.2d2d.org"
+    - "&7Website: https ://2d2d.org"
+    - ""
+TpsMessage:
+  - "&5-----------TPS Information-----------"
+  - "&bTPS: %s &dMSTP: %s"
+  - "&bLowest TPS in the region: &d%s"
+  - "&bOnline players : %s"
+  - "&5-----------------------"
+tps_failed: "&5You are not allowed to request TPS"
+announcements:
+  - "&l [&5&l2D&d&l2D&r&l] &rVisit &d&lhttps://vote.2d2d.org &rand vote to get free SOMETHING I DON’T KNOW WHAT "
+  - "&l[&5&l2D&d&l2D&r&l] &rDonate to support 2D2D at &d&lhttps://donate.2d2d.org"
+  - "&l[ &5&l2D&d&l2D&r&l] &rOur discord &lds.2d2d.org"
+  - "&l[&5&l2D&d&l2D&r&l] &rProtect your account from hacking &l2fa.2d2d.org"
+  - "&l[&5&l2D&d&l2D&r&l] &rYour personal account on the server &llk.2d2d.org"
+  - "&l[&5&l 2D&d&l2D&r&l] &rWe have a dupe frame working "
+global-pvp-death-messages:
+  - "&d%victim%&r&r was killed by &d%killer%&r&r"
+  - "&d%victim%&r&r was killed by &d%killer%&r&r with &b[%kill-weapon%&b]"
+  - "&d%victim%&r&r was knocked down by &d%killer% &r&r"
+  - "&d%victim%&r&r was destroyed by &d%killer%&r&r"
+  - "&d%victim%&r&r was killed by &d%killer%&r&r wielding &b[%kill-weapon%&b]"
+  - "&d%victim%&r&r was torn apart by &d%killer% &r&r with the help of &b[%kill-weapon%&b]"
+  - "&d%victim%&r&r was met by &d%killer%&r&r and their mighty &b[%kill-weapon%&b]"
+  - "&d%victim%&r&r was easily defeated by &d%killer% &r&r with &b[%kill-weapon%&b]"
+melee-death-messages:
+  - "&d%victim%&r&r was slapped by &d%killer%&r&r"
+  - "&d%victim%&r&r was knocked out by &d%killer%&r&r"
+  - "&d%victim%&r&r was crushed by &d%killer %&r&r"
+fall-damage-messages:
+  - "&d%victim%&r&r decided to test gravity and lost"
+  - "&d%victim%&r&r forgot to take a parachute"
+  - "&d%victim%&r&r decided that he could fly... couldn’t"
+drowning-messages:
+  - "&d%victim%&r&r decided to sleep with the fishes"
+  - "&d %victim%&r&r thought he could reach oxygen in time"
+  - "&d%victim%&r&r tried to swim across the water"
+suffocation-messages:
+  - "&d%victim%&r&r couldn't breathe while in the block"
+  - "&d%victim%&r&r couldn't breathe while inside the block"
+  - "&d% victim%&r&r was tricked by the block"
+cramming-messages:
+  - "&d%victim%&r&r was compressed into oblivion"
+  - "&rPoor &d%victim%&r&r, he thought he could live in a 1x1 space"
+thorns-messages:
+  - "&d%victim%&r&r was thrown back by the spiked armor &d%killer%&r&r"
+  - "&d%victim%&r&r fell into a trap set by &d%killer%&r&r with spikes"
+lava-messages:
+  - "&d%victim%&r&r burned in a lava pit"
+  - "&d%victim%&r&r went swimming in lava and burned "
+magma-block-messages:
+  - "&d%victim%&r&r was killed by a hot &bmagma block "
+  - "&d%victim%&r&r legs were turned into bacon by a &bmagma block"
+elytra-messages:
+  - "&d%victim%&r&r flew into a wall and died...?"
+  - "&d%victim%&r&r was pinned to the wall of his elytra"
+wither-messages:
+  - "&d%victim%&r&r contracted &bwither's disease"
+  - "&d%victim%&r&r &bdisappeared into the fourth dimension"
+suicide-messages:
+  - "&d%victim%&r&r committed suicide"
+  - "&d%victim%&r&r suffered a nervous breakdown and died"
+fire-messages:
+  - "&d%victim%&r&r stood in the fireplace"
+  - "&d%victim%&r&r played with fire"
+fire-tick-messages:
+  - "&d%victim% &r&r forgot to stop, fall and roll"
+starvation-messages:
+  - "&d%victim%&r&r forgot to eat"
+  - "&d%victim%&r&r mom said we have food at home"
+cactus-messages:
+  - "&d%victim%&r&r was stung to death"
+  - "&d%victim%&r&r tried acupuncture, but died"
+  - "&d%victim%&r&r hugged a cactus to death"
+potion-messages:
+  - "&d%victim%&r&r fell victim to a bad potion"
+  - "&d%victim%&r&r died of coronavirus"
+void-messages:
+  - "&d%victim%&r&r thought it would be fun to take a trip into the void"
+  - "&d%victim%&r&r went on a one-way trip into the void"
+  - "&d%victim%&r&r went on a space adventure... without a spaceship"
+lightning-messages:
+  - "&d%victim%&r&r was amazed divine intervention"
+  - "&d%victim%&r&r was shot down by the gods"
+  - "&d%victim%&r&r received a shocking reminder from above"
+falling-block-messages:
+  - "&d%victim%&r&r was crushed by a falling block"
+  - "&d%victim%&r&r became one with the falling block"
+  - "&d%victim%&r&r met his fate in a falling block"
+freeze-messages:
+  - "&d%victim%&r&r did not survive the polar vortex"
+  - "&d%victim%&r&r forgot his winter jacket"
+  - "&d%victim%&r&r froze faster than ice"
+firework-messages:
+  - "&d%victim%&r&r lit fireworks too early"
+  - "&d%victim%&r&r tried to fly with effect... and crashed"
+  - "&d%victim%&r&r discovered the dangers of amateur pyrotechnics"
+slime-messages:
+  - "&d%victim%&r&r was crushed by a giant &2slug"
+  - "&d%victim%&r&r was &2licked &rto death while collecting slime balls"
+zombie-messages:
+  - "&d%victim%&r&r was eaten alive &2Zombie"
+  - "&d%victim%&r&r thought that &2Zombies were &rfriendly"
+pigman-messages:
+  - "&d%victim%&r&r angered the &bPigmans &rand was eaten alive by them"
+  - "&d%victim%&r&r angered the &bPigmans &rbecame their bacon"
+skeleton-messages:
+  - "&d%victim%&r&r was killed with precision by a bony &fSkeleton ohm "
+  - "&d%victim%&r&r was shot by a &fskeleton"
+magmacube-messages:
+  - "&d%victim%&r&r was crushed by a giant &bMagma Cube"
+husk-messages:
+  - "&d%victim%&r&r was eaten by a desert dweller, IMHO, &dHask"
+spider-messages:
+  - "&d%victim%&r&r was tricked by a cunning &bspider"
+  - "&d%victim%&r&r became a snack for a &bspider"
+cavespider-messages:
+  - "&d%victim%&r&r was bitten to death by a &bcave spider"
+  - "&d%victim%&r&r received a poisonous hug from a &bcave spider"
+witherskeleton-messages:
+  - "&d%victim%&r&r was destroyed by a &0skeleton ghoul &rc stone sword"
+  - "&d%victim%&r&r learned a lesson from &0ghoul skeleton &rc stone sword"
+witherboss-messages:
+  - "&d%victim%&r&r lost his head from &0Ghoul"
+  - "&d%victim%&r&r challenged &0Ghoul &r and lost his head"
+  - "&d%victim%&r&r learned a deadly lesson from &0Ghoul"
+dragon-messages:
+  - "&d%victim%&r&r his intestines were torn apart by &bDragon End"
+  - "&d%victim%&r&r his head was blown up by the &bEnder Dragon"
+  - "&d%victim%&r&r found a respawn screen, not an End portal"
+dragon-breath-messages:
+  - "&d%victim%&r&r took a bath in the breath of the &bEnder Dragon"
+  - "&d%victim%&r&r inhaled a little too much breath &bThe Ender Dragon"
+  - "&d%victim%&r&r was destroyed by the breath of the &bEnder Dragon"
+elderguardian-messages:
+  - "&d%victim%&r&r tried to clear the ocean monument, but the &bElder Guardian &rsaid no"
+  - "&d%victim%&r&r thought he could conquer the ocean monument, but &bThe Elder Guardian &rhad other plans"
+tnt-messages:
+  - "&d%victim%&r&r lost his head from &rTNT"
+  - "&d%victim%&r&r was blown up &rTNT"
+  - "&d%victim%&r&r learned about explosives the hard way"
+end-crystal-messages:
+  - "&d%victim%&r&r was torn apart by an End Crystal"
+  - "&d%victim%&r&r was blown up &bThe End Crystal"
+creeper-messages:
+  - "&d%victim%&r&r was rudely represented by the Creeper's explosive personality"
+  - "&d%victim%&r&r collided with the Creeper &r and was blown into the air"
+  - "&d%victim%&r&r underestimated the Creeper's blast radius"
+  - "&d%victim%&r&r tried to defuse the Creeper&r... but it didn't work"
+ghast-messages:
+  - "&d%victim%&r&r was shot at by a fireball &bGasta"
+enderman-messages:
+  - "&d%victim%&r&r looked into the eyes of &bEnderman"
+  - "&d%victim%&r&r tried to play hide and seek with &bEnderman"
+silverfish-messages:
+  - "&d%victim%&r&r was eaten by &bWilm from the Seine"
+witch-messages:
+  - "&d %victim%&r&r was bewitched by the cunning &bWitch"
+  - "&d%victim%&r&r was turned into a frog by the vengeful &bWitch"
+shulker-messages:
+  - "&d%victim%&r&r died trying to get some &dragon shells"
+  - "&d%victim%&r&r was shot by &dShulker"
+  - "&d%victim%&r&r was destroyed &dShulker"
+guardian-messages:
+  - "&d%victim%&r&r was killed by &bGuardian"
+  - "&d%victim%&r&r was struck by electric &bGuardian"
+  - "&d%victim%&r&r was overtaken by cunning &bGuardian"
+golem-messages:
+  - "&d%victim%&r&r angered &bIron Golem"
+  - "&d%victim%&r&r provoked the wrath of &bIron Golem"
+  - "&d%victim%&r&r learned a lesson in &bIron Golem diplomacy"
+zombievillager-messages:
+  - "&d%victim%&r&r was eaten by &2Zombie Villager"
+endermite-messages:
+  - "&d%victim%&r&r met &bEndermite &r was gradually eaten"
+  - "&d%victim%&r&r was deceived by &bEndermite"
+phantom-messages:
+  - "&d%victim%&r&r was kidnapped by &bPhantom"
+drowned-messages:
+  - "&d%victim%&r&r went swimming at night and was eaten by &2Drowned Zombie"
+  - "&d%victim%&r&r discovered that &2Drowned Zombie &rdoesn't just swim"
+pillager-messages:
+  - "&d%victim%&r&r was shot by &dRaid"
+ravager-messages:
+  - "&d%victim%&r&r was shot down by &dRevenger "
+illusioner-messages:
+  - "&d%victim%&r&r was sent to the world of illusions by &bIllusionist"
+  - "&d%victim%&r&r was deceived by &bIllusionist"
+  - "&d%victim%&r&r was killed by &bIllusionist"
+bee-messages:
+  - "&d%victim%&r&r was stung by &bBEE"
+  - "&d%victim%&r&r met &bbee &r found out that they not only make honey"
+  - "&d%victim%&r&r was stung by a persistent &bbee"
+wolf-messages:
+  - "&d%victim%&r&r was torn apart by &bWolf"
+  - "&d%victim%&r&r angered &bWolf"
+llama-messages:
+  - "&d%victim%&r&r was splashed with saliva &bLama"
+  - "&d%victim%&r&r got into a &blamin &rfire of saliva"
+  - "&d%victim%&r&r got a mouth full of &blamina &rsaliva"
+blaze-messages:
+  - "&d%victim%&r&r was charred by &bFirewing"
+  - "&d%victim%&r&r was fried by fiery &bFirewing"
+  - "&d%victim%&r&r learned the hard way that you shouldn’t play with fiery &bFirewings"
+stray-messages:
+  - "&d%victim%&r&r was shot by an ice &bRogue"
+vex-messages:
+  - "&d%victim%&r&r was eaten by a small flying &bVex"
+  - "&d%victim%&r&r was upset by &bVex"
+vindicator-messages:
+  - "&d%victim%&r&r was chased by &rVindicator"
+  - "&d%victim%&r&r underestimated the power of &rVindicator "
+  - "&d%victim%&r&r fell into the path of destruction of the &rVindicator"
+evoker-messages:
+  - "&d%victim%&r&r was called to the dead by &rEvoker"
+  - "&d%victim%&r&r experienced the wrath of &rEvoker"
+  - "&d%victim%&r&r was summoned by &rEvoker"
+pufferfish-messages:
+  - "&d%victim%&r&r underestimated the toxicity of &bFugu"
+  - "&d%victim%&r&r met &bFugu &r learned that it was better don't touch her"
+polar-bear-messages:
+  - "&d%victim%&r&r was mutilated by the ice &fPolar Bear"
+  - "&d%victim%&r&r turned into snow under the paws of &fPolar Bear"
+dolphin-messages:
+  - "&d%victim%&r&r angered &bDolphin&r... and lost?"
+  - "&d%victim%&r&r hit &bDolphin &ri they took revenge"
+panda-messages:
+  - "&d%victim%&r&r became dinner for &8Pandas"
+  - "&d%victim%&r&r tried to steal bamboo from &8Pandas"
+piglin-messages:
+  - "&d%victim%&r&r met his creator in a new guise &bPiglins"
+  - "&d%victim%&r&r encountered &bPiglins &r and learned a lesson in survival "
+  - "&d%victim%&r&r met &bPiglins &r and realized that there was no way to negotiate with them"
+hoglin-messages:
+  - "&d%victim%&r&r was attacked by &bHoglin&r, quite rudely?"
+  - "&d%victim%&r&r did not read the patch notes about &bHoglins"
+zoglin-messages:
+  - "&d%victim%&r&r ate the horn of &bZoglin for dinner"
+  - "&d%victim%&r&r was pierced by the horn of &bZoglin"
+goat-messages:
+  - "&d%victim%&r&r was hit by the horns of &rGoat"
+  - "&d%victim%&r&r was pierced by the horn of &rGoat"
+zombified-piglin-messages:
+  - "&d%victim%&r&r took &bPig &rto Overworld and was killed by his new, not very friendly pet"
+  - "&d%victim%&r&r died from &bPigman&r... I mean, Pigman... I mean, Zombified Pigman"
+fox-messages:
+  - "&d%victim%&r&r &bcunning &raround and found out"
+  - "&d%victim%&r&r was chewed up by &bFox"
+warden-messages:
+  - "&d%victim%&r&r was killed by a &bGuardian&r... I mean, what did you expect?"
+  - "&d%victim%&r&r underestimated the strength of the &bGuardian"
+  - "&d%victim%&r&r got too close to the territory of &bGuardian"
+warden-sonic-boom-messages:
+  - "&d%victim%&r&r was deafened by the sound blow from &bGuardian"
+  - "&d%victim%&r&r lost hearing from sonic boom &bGuardian"
+unknown-messages:
+  - "&d%victim%&r&r died from unknown causes"
+  - "&d%victim%&r&r died"
+  - "&d%victim%&r&r was killed"
+fireball-messages:
+  - "&d%victim%&r&r was burned by unexpected &rfire ball"
+  - "&d%victim%&r&r got caught in a firestorm of &rfireballs"
+  - "&d%victim%&r&r was desiccated by a volley of &rfireballs"
+arrow-messages:
+  - "&d%victim%&r&r got caught in a rain of &barrows"
+  - "&d%victim%&r&r tried to run away from &barrows&r... Didn’t work "

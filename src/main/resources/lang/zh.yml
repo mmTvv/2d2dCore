@@ -1,0 +1,387 @@
+prefix: "&l[&5&l2D&d&l2D&r&l]"
+ignore_successful: "&dPlayer &r %s&r &dadded toignore&r"
+already_ignoring: "&5您已经忽略了该玩家"
+ignore_command_syntax: "&5命令的正确使用：/ignore <player_nick>"
+unignore_successful: "&dPlayer &r %s&r &d从忽略中移除&r"
+unignore_not_ignoring: "&5您没有忽略 %s"
+unignore_command_syntax: "&5请指定玩家：/unignore <player_name>"
+ignorelist_successful: "&d被忽略的玩家：&5%s"
+ignorelist_not_ignoring: "&6您没有忽略任何人"
+ignorelist_failed: "&6无法获取有关被忽略列表的信息。"
+whisper_from: "&5%s 窃窃私语：&d%s"
+whisper_to: "&5对于 %s：&d%s"
+whisper_ignoring: "&5% s 正在忽略您"
+whisper_you_are_ignoring: "&5您无法向您忽略的玩家发送消息"
+msg_could_not_find_player: "&5找不到玩家 %s"
+msg_command_syntax: "&d请输入收件人和消息：/msg <收件人> <消息>"
+reply_player_offline: "&5玩家 %s 离线"
+reply_no_target: "&5您没有尚未发送消息"
+reply_command_syntax: "&5请输入消息：/r <消息>"
+togglechat_chat_enabled: "&d聊天已开启"
+togglechat_chat_disabled: "&5聊天已关闭"
+cmdwhitelist_cmd_not_allowed: "&5命令&r %s&r&5 不可用"
+chat_cooldown: "&d请等待 &r %d&r&d 秒后再发送下一条消息"
+delhome_no_homes: "&d您没有已保存的房屋"
+delhome_specify_home: "&d请注明要删除的房屋的名称。当前房屋：(&r%s&r&d)&r"
+delhome_home_not_found: "&d房屋&r %s&r&d 未找到"
+delhome_success: "&d房屋&r %s&r&d 已删除"
+delhome_fail: "&d删除房屋失败&r %s&r"
+home_no_homes: "&d房屋未找到"
+home_specify_home: "&d请输入房屋！当前房屋：(&r%s&r&d)&r"
+home_too_close: "&d您必须距出生点 %d&r&d 方块才能使用 /home"
+home_success: "&d传送至房屋&r %s&r&d..."
+home_not_found: "&d未找到房屋&r %s&r&d"
+sethome_include_name: "&d请为您的新房屋提供名称"
+sethome_home_already_exists: "&5带有名称的房屋&r %s&r&5 已存在"
+sethome_max_reached: "&d房屋数量已达到上限！"
+sethome_success: "&d房屋&r %s &r&d 已安装"
+kick_restarting: "&d服务器正在重新启动"
+elytra_too_fast: "&d您在鞘翅上飞得太快"
+elytra_school_zone: "&d您目前位于学区。请以不超过 15 公里/小时的速度行驶"
+elytras_disabled: "&dEliters 由于服务器挂起而暂时禁用。他们很快就会回来"
+bookban_inventory_clear: "&5您的库存已被清除，以防止图书封禁"
+bookban_removed_item: "&5从您的库存中删除了所有&r&d %s(r) &r&5，以防止图书封禁"
+kick_lever_ratelimit: "&5您交互太快"
+kick_pps_limit: "&5您发送数据包太快！"
+kick_failed_to_inject: "&5无法输入数据"
+join_message: "&7%s 已加入"
+player_join_first_time: "&7%s 首次加入服务器"
+leave_message: "&7%s 离开服务器"
+kick_message: "&7%s 因“%s”被踢出"
+could_not_translate_message: "由于 %s，无法翻译消息"
+message_auto_translated: "该消息已自动翻译。\n\n原始文本：%s"
+welcome_message: "&d欢迎来到 2d2d"
+vote_announcement: "&5%s &6投票给 &52d&d2d &6并获得免费 /nc 2 个额外渲染距离和 5 个额外房屋"
+vote_thanks: "&6感谢您投票给 &52d&d2d &6您获得免费 /nc 2 个额外渲染距离和 5 个额外房屋"
+vote_info: "&6You可以投票给&52d&d2d &6at &5https://vote.2d2d.org"
+tpa_syntax: "&5请确认玩家提交传送请求。 /tpa <玩家>"
+tpa_player_not_online: "&5玩家 %s 离线"
+tpa_no_request_found: "&5找不到传送请求"
+tpa_self_tpa: "&5您无法向自己发送传送请求"
+tpa_request_received: "%s&r&d想要传送给您&r /tpayes &dUSERNAME &5/tpano &dUSERNAME"
+tpa_request_sent: "&d请求已发送给玩家&r %s"
+tpa_already_sent: "&5您已有一个待处理的请求"
+tpa_teleporting: "&d传送&r ..."
+tpa_request_timeout: "&5传送请求已过期"
+tpa_request_denied_from: "%s&r&5 拒绝了您的请求"
+tpa_request_denied_to: "&d请求成功被拒绝"
+tpa_pending_request: "%s&r &5 有一个待处理的请求"
+tpa_to_left: "&5/tpa 被取消，因为&r %s&r&5 离开了游戏"
+op_not_allowed: "&5您没有操作员权限"
+framedupe_cooldown: "&5您复制得太快了"
+framedupe_items_limit: "&5那里此块中的物品太多，因此不再发生重复"
+nbtPatch_deleted_item: "&5&6%s&r&5 由于冗余数据已从您的库存中删除"
+chest_cooldown: "&5您打开宝箱的速度太快。请稍候！"
+chestlimiter_deleted_chest: "&5&6%s&r&5 个宝箱已被移除，因为它们超出了每块 &5&6%s&r&5 个宝箱的最大数量"
+HelpMessage:
+  - "&5----------------------------------------"
+  - "&d请访问 &5https://www.2d2d.org/ &6 了解更多信息"
+  - "&5--------------团队------------------"
+  - "&b/tpa &6传送到另一个玩家"
+  - "&b/t支付&6接受传送请求"
+  - "&b/tpano &6拒绝传送请求"
+  - "&b/sethome &6在当前位置设置房屋"
+  - "&b/delhome &6删除已安装的主页"
+  - "&b/home &6传送到已安装的主页"
+  - "&b/皮肤集 &6安装您的皮肤"
+  - "&b/投票 &6为服务器投票"
+  - "&b/discord &6接收 Discord 2d2d 邀请"
+  - "&b /kill &6 删除您的角色"
+  - "&b/ignore &6 忽略其他玩家"
+  - "&b/unignore &6 忽略其他玩家"
+  - "&b/ignorelist &6 显示您正在忽略的玩家"
+  - "&b/msg &6 向其他玩家发送消息"
+  - "&b/changepass &6 更改密码"
+  - "&b/joindate &6查看您和其他人的加入日期"
+  - "&b/worldstats &6查看世界大小"
+  - "&b/pvp &6连接到 2d2d PVP 服务器"
+  - "&b/lobby &6连接到大厅"
+  - "&b/tpsinfo &6检查刻度服务器上每秒"
+  - "&5--------------仅适用于选民-------------"
+  - "&b/nc &6设置名称颜色"
+  - "&b/ic &6to设置项目颜色"
+  - "&d访问 &bhttps://vote .2d2d.org &6进行投票"
+  - "&5-----------仅适用于捐赠者--------------"
+  - "&b/seen &6用于查看玩家上次在线的时间"
+  - "&b/echest &6打开你的渲染箱"
+  - "&b/nick &6设置别名"
+  - "&d访问 &bhttps://donate.2d2d.org &6进行捐赠"
+  - "&5----------------------------------------"
+TabList:
+  Header:
+    - ""
+    - "&l[&5&l2D&d&l2D&r&l]"
+    - ""
+    - ""
+  Footer:
+    - ""
+    - "&dTPS:&b &r[&b%tps% &r] &dPing: &r[&b%ping %&r] &d玩家: &r[&b%players%&r] &d工作时间: &r[&b%uptime%&r]"
+    - ""
+    - "&7反馈: admin@2d2d.org"
+    - "&7讨论: https://ds .2d2d.org"
+    - "&7网站：https://2d2d.org"
+    - ""
+TpsMessage:
+  - "&5------------TPS信息-----------"
+  - "&bTPS: %s &dMSTP: %s"
+  - "&b该地区最低TPS: &d%s"
+  - "&b在线玩家: %s "
+  - "&5------------------------"
+tps_failed: "&5您不能请求 TPS"
+announcements:
+  - "&l[&5&l2D&d&l2D&r&l] &r访问 &d&lhttps://vote.2d2d.org &rand 投票获得免费的东西我不知道"
+  - "&l[&5&l2D&d&l2D&r&l] &r捐赠以支持 2D2D &d&lhttps://donate.2d2d.org"
+  - "&l[&5&l2D&d&l2D&r&l] &r我们的不和谐 &lds.2d2d.org"
+  - "&l[&5&l2D&d&l2D&r&l] & r保护您的帐户免受黑客攻击 &l2fa.2d2d.org"
+  - "&l[&5&l2D&d&l2D&r&l] &r您在服务器上的个人帐户 &llk.2d2d.org"
+  - "&l[&5&l 2D&d&l2D&r&l] &r我们有一个欺骗框架正在运行 "
+global-pvp-death-messages:
+  - "&d%victim%&r&r 被 &d%killer%&r&r"
+  - "&d%victim%&r&r 被 &d%killer%&r&r 用 &b[%kill-weapon%&b] 杀死"
+  - "&d%victim%&r&r 被 &d%killer% &r&r 击倒"
+  - "&d%victim%&r&r 被 &d%killer% 摧毁&r&r"
+  - "&d%victim%&r&r 被 &d%killer%&r&r 挥舞着 &b[%kill-weapon%&b]"
+  - "&d%victim%&r&r 在 &b[%kill-weapon%&b]的帮助下被 &d%killer% &r&r 撕裂%&b]"
+  - "&d%victim%&r&r 被 &d%killer%&r&r 遇见了，他们强大的 &b[%kill-weapon%&b]"
+  - "&d%victim%&r&r 被 &d%killer% &r&r 的 &b[%kill- 轻松击败武器%&b]"
+melee-death-messages:
+  - "&d%victim%&r&r被&d%killer%&r&r打了一巴掌"
+  - "&d%victim%&r&r被&d%killer%&r&r击倒了"
+  - "&d%victim%&r&r被&d%killer%&r&r碾碎了"
+fall-damage-messages:
+  - "&d%victim%&r&r 决定测试重力并迷失了"
+  - "&d%victim%&r&r 忘记带降落伞"
+  - "&d%victim%&r&r 决定他可以飞……不能"
+drowning-messages:
+  - "&d%victim%&r&r 决定和鱼一起睡觉"
+  - "&d%victim%&r&r 认为他能及时获得氧气"
+  - "&d%victim%&r&r 尝试游过水面"
+suffocation-messages:
+  - "&d%victim%&r&r 在街区内无法呼吸"
+  - "&d%victim%&r&r 在街区内无法呼吸方块"
+  - "&d%victim%&r&r被方块欺骗"
+cramming-messages:
+  - "&d%victim%&r&r被压缩成遗忘"
+  - "&r可怜&d%victim%&r&r，他以为自己可以生活在1x1的空间里"
+thorns-messages:
+  - "&d%victim%&r&r被尖刺盔甲 &d%killer%&r&r"
+  - "&d%victim%&r&r 掉进了 &d%killer%&r&r 用尖刺设置的陷阱"
+lava-messages:
+  - "&d%victim%&r&r 在熔岩坑中被烧毁"
+  - "&d%victim%&r&r 在熔岩中游泳并被烧毁"
+magma-block-messages:
+  - "&d%victim%&r&r被炽热的&b岩浆块杀死了"
+  - "&d%victim%&r&r的腿被&b岩浆块变成了培根"
+elytra-messages:
+  - "&d%victim%&r&r飞到墙上死了……？"
+  - "&d%victim%&r&r被钉在鞘翅墙上"
+wither-messages:
+  - "&d%victim%&r&r 感染了 &bwither 病"
+  - "&d%victim%&r&r &b消失在第四维度"
+suicide-messages:
+  - "&d%victim%&r&r 自杀了"
+  - "&d%victim%&r&r 精神崩溃而死"
+fire-messages:
+  - "&d%victim%&r&r 站在壁炉里"
+  - "&d%victim%&r&r 玩火"
+fire-tick-messages:
+  - "&d%victim%&r&r 忘记停下来，摔倒滚"
+starvation-messages:
+  - "&d%victim%&r&r 忘记吃饭"
+  - "&d%victim%&r&r 妈妈说我们有食物在家里"
+cactus-messages:
+  - "&d%victim%&r&r 被蜇死"
+  - "&d%victim%&r&r 尝试针灸，但死了"
+  - "&d%victim%&r&r 抱仙人掌致死"
+potion-messages:
+  - "&d%victim%&r&r 中了劣药水"
+  - "&d%victim%&r&r 死了冠状病毒"
+void-messages:
+  - "&d%victim%&r&r 认为进入太空旅行会很有趣"
+  - "&d%victim%&r&r 进行了一次单程太空旅行"
+  - "&d%victim%&r&r 进行了一次太空冒险...没有宇宙飞船"
+lightning-messages:
+  - "&d%victim%&r&r 惊讶于神的干预"
+  - "&d%victim%&r&r 被众神击落"
+  - "&d%victim%&r&r 收到了来自上方的令人震惊的提醒"
+falling-block-messages:
+  - "&d%victim%&r&r 被坠落的木块压碎了"
+  - "&d%victim%&r&r 与坠落的方块合而为一"
+  - "&d%victim%&r&r 在坠落的方块中遭遇了命运"
+freeze-messages:
+  - "&d%victim%&r&r 在极涡中没能幸存"
+  - "&d%victim%&r&r 忘记了他的冬季夹克"
+  - "&d%victim %&r&r 结冰的速度比冰还快"
+firework-messages:
+  - "&d%victim%&r&r 过早点燃烟花"
+  - "&d%victim%&r&r 尝试有效飞行...然后坠毁"
+  - "&d%victim%&r&r 发现了业余烟火的危险"
+slime-messages:
+  - "&d%victim%&r&r被巨人&2slug压碎"
+  - "&d%victim%&r&r在收集粘液球时被&2舔&r致死"
+zombie-messages:
+  - "&d%victim%&r&r被活活吃掉&2僵尸"
+  - "&d%victim%&r&r认为&2僵尸是&r友好的"
+pigman-messages:
+  - "&d%victim%&r&r激怒了&bPigmans &rand被他们活活吃掉了"
+  - "&d%victim%&r&r激怒了&b猪人&r成为了他们的培根"
+skeleton-messages:
+  - "&d%victim%&r&r被骨瘦如柴的&f骷髅欧姆精准杀死了"
+  - "&d%victim%&r&r被&f骷髅射杀了"
+magmacube-messages:
+  - "&d%victim%&r&r被一个巨大的 &bMagma Cube 压碎了"
+husk-messages:
+  - "&d%victim%&r&r 被沙漠居民吃掉了，恕我直言，&dHask"
+spider-messages:
+  - "&d%victim%&r&r 被狡猾的 &bspider 欺骗了"
+  - "&d%victim%&r&r 成为了 &bspider 的零食"
+cavespider-messages:
+  - "&d%受害者%&r&r被&bcave蜘蛛咬死了"
+  - "&d%victim%&r&r受到了&bcave蜘蛛的有毒拥抱"
+witherskeleton-messages:
+  - "&d%victim%&r&r被&0骷髅食尸鬼&rc石剑摧毁了"
+  - "&d%victim%&r&r吸取了教训&0食尸鬼骷髅&rc石剑"
+witherboss-messages:
+  - "&d%victim%&r&r被&0食尸鬼丢了头"
+  - "&d%victim%&r&r挑战&0食尸鬼&r，丢了头"
+  - "&d%victim%&r&r从&0食尸鬼身上得到了致命的教训"
+dragon-messages:
+  - "&d%victim%&r&r他的肠子被被 &bDragon End 撕裂"
+  - "&d%victim%&r&r 他的头被 &bEnder Dragon 炸飞了"
+  - "&d%victim%&r&r 发现了重生屏幕，而不是末地传送门"
+dragon-breath-messages:
+  - "&d%victim%&r&r 在 &bEnder 的呼吸中沐浴龙"
+  - "&d%victim%&r&r吸入了太多的气息&b末影龙"
+  - "&d%victim%&r&r被&bEnder龙的气息摧毁了"
+elderguardian-messages:
+  - "&d%victim%&r&r试图清除海洋纪念碑，但&b远古守护者&r说不"
+  - "&d%victim%&r&r 认为他可以征服海洋纪念碑，但 &b远古守护者 &r 有其他计划"
+tnt-messages:
+  - "&d%victim%&r&r 因 &rTNT 失去了头"
+  - "&d%victim%&r&r 被炸毁了 &rTNT"
+  - "&d%victim%&r&r 通过惨痛的经历了解了爆炸物"
+end-crystal-messages:
+  - "&d%victim%&r&r 被末影水晶撕裂了"
+  - "&d%victim% &r&r被炸毁了&b末地水晶"
+creeper-messages:
+  - "&d%victim%&r&r粗鲁地表现了苦力怕的爆炸性个性"
+  - "&d%victim%&r&r与苦力怕&r相撞并被炸到空中"
+  - "&d%victim%&r&r低估了苦力怕的爆炸半径"
+  - "&d%victim%&r&r低估了苦力怕的爆炸半径"
+ghast-messages:
+  - "&d%victim%&r&r 试图解除爬行者的威力&r...但没有成功"
+enderman-messages:
+  - "&d%victim%&r&r 被火球击中 &bGasta"
+  - "&d%victim%&r&r 看着 &bEnderman 的眼睛"
+silverfish-messages:
+  - "&d%victim%&r&r试图与 &bEnderman 玩捉迷藏"
+witch-messages:
+  - "&d%victim%&r&r 被塞纳河的 &bWilm 吃掉"
+  - "&d%victim%&r&r 被狡猾的 &bWitch 施了魔法"
+shulker-messages:
+  - "&d%victim%&r&r 被复仇心切的 &bWitch 变成了青蛙"
+  - "&d%victim%&r&r 在试图获取一些&龙壳时死亡"
+  - "&d%victim%&r&r 被 &dShulker 射中"
+guardian-messages:
+  - "&d%victim%&r&r 被摧毁 &dShulker"
+  - "&d%victim%&r&r 被 &bGuardian 杀死"
+  - "&d%victim%&r&r 被电击中&bGuardian"
+golem-messages:
+  - "&d%victim%&r&r 被狡猾所超越 &bGuardian"
+  - "&d%victim%&r&r 激怒了 &bIron Golem"
+  - "&d%victim%&r&r 激起了 &bIron Golem 的愤怒"
+zombievillager-messages:
+  - " &d%victim%&r&r 吸取了 &bIron Golem 外交的教训"
+endermite-messages:
+  - "&d%victim %&r&r被&2僵尸村民吃掉了"
+  - "&d%victim%&r&r遇到了&b末影魔&r被逐渐吃掉了"
+phantom-messages:
+  - "&d%victim%&r&r被&b末影魔欺骗了"
+drowned-messages:
+  - "&d%victim%&r&r被&b幽灵绑架了"
+  - "&d%victim%&r&r晚上去游泳了被 &2Drowned Zombie 吃掉"
+pillager-messages:
+  - "&d%victim%&r&r 发现 &2Drowned Zombie &r 不只是游泳"
+ravager-messages:
+  - "&d%victim%&r&r 被 &dRaid 射击"
+illusioner-messages:
+  - "&d%victim%&r&r 被 &dRevenger 击落 "
+  - "&d%victim%&r&r 被发送到幻象世界被&bIllusionist"
+  - "&d%victim%&r&r被&bIllusionist欺骗了"
+bee-messages:
+  - "&d%victim%&r&r被&bIllusionist杀死了"
+  - "&d%victim%&r&r被&bBEE蛰了"
+  - "&d%victim%&r&r遇见了&bbee &r发现他们不是只做蜂蜜"
+wolf-messages:
+  - "&d%victim%&r&r被顽固的&bbee蛰了"
+  - "&d%victim%&r&r被&b狼撕碎了"
+llama-messages:
+  - "&d%victim%&r&r激怒了&b狼"
+  - "&d%victim%&r&r被口水溅了&bLama"
+  - "&d%victim% &r&r 陷入了 &blamin &r 唾液之火"
+blaze-messages:
+  - "&d%victim%&r&r 满嘴都是 &blamin &rsaliva"
+  - "&d%victim%&r&r 被 &bFirewing 烧焦了"
+  - "&d%victim%&r&r 被火热的 &bFirewing"
+stray-messages:
+  - "&d%victim%&r&r 学会了很难，你不应该玩火热的 &bFirewings"
+vex-messages:
+  - "&d%victim%&r&r 被冰射中 &bRogue"
+  - "&d%victim%&r&r 被一个小飞行者吃掉 &bVex"
+vindicator-messages:
+  - "&d%victim%&r&r 被 &bVex"
+  - "&d%victim 打扰%&r&r被&rVindicator追赶"
+  - "&d%victim%&r&r低估了&rVindicator的力量"
+evoker-messages:
+  - "&d%victim%&r&r陷入了&rVindicator的毁灭之路"
+  - "&d%victim%&r&r被&rEvoker召唤到死者"
+  - "&d%victim%&r&r经历了&rEvoker的愤怒"
+pufferfish-messages:
+  - "&d%victim%&r&r被&rEvoker召唤"
+  - "&d%victim%&r&r低估了&bFugu的毒性"
+polar-bear-messages:
+  - "&d%victim%&r&r遇见&b河豚&r得知最好别碰她"
+  - "&d%victim%&r&r被冰冻残害&f北极熊"
+dolphin-messages:
+  - "&d%victim%&r&r在&f北极熊的爪子下变成了雪"
+  - "&d%victim%&r&r激怒了&b海豚&r。 ..然后输了？"
+panda-messages:
+  - "&d%victim%&r&r 击中了 &bDolphin &ri 他们报了仇"
+  - "&d%victim%&r&r 成为了 &8Pandas 的晚餐"
+piglin-messages:
+  - "&d%victim%&r&r 试图从 &8Pandas 那里偷竹子"
+  - "&d%victim%&r&r 在一次遇见了他的创造者新花样&bPiglins"
+  - "&d%victim%&r&r遇到了&bPiglins &r，吸取了生存的教训"
+hoglin-messages:
+  - "&d%victim%&r&r遇到了&bPiglins &r，意识到没有办法和他们谈判"
+  - "&d%victim%&r&r被&bHoglin&r攻击了，相当粗鲁？"
+zoglin-messages:
+  - "&d%victim%&r&r没有阅读关于&bHoglins的补丁说明"
+  - "&d%victim%&r&r晚餐吃了&bZoglin的号角"
+goat-messages:
+  - "&d%victim%&r&r被&bZoglin的号角刺穿了"
+  - "&d%victim%&r&r被击中被 &rGoat 的角"
+zombified-piglin-messages:
+  - "&d%victim%&r&r 被 &rGoat 的角刺穿"
+  - "&d%victim%&r&r 将 &bPig &r 带到主世界并被他的新宠物杀死，不是很友好"
+fox-messages:
+  - "&d%victim%&r&r 死于 &bPigman&r..我的意思是，猪人...我的意思是，僵尸猪人"
+  - "&d%victim%&r&r &bcunning &raround 并发现"
+warden-messages:
+  - "&d%victim%&r&r 被 &bFox 咀嚼了"
+  - " &d%victim%&r&r 被 &bGuardian&r 杀死了...我你的意思是，你在期待什么？"
+  - "&d%victim%&r&r低估了&bGuardian的实力"
+warden-sonic-boom-messages:
+  - "&d%victim%&r&r离&bGuardian的领地太近了"
+  - "&d%victim%&r&r被&bGuardian的轰击声震聋了"
+unknown-messages:
+  - "&d%受害者%&r&r因音爆而丧失听力&bGuardian"
+  - "&d%victim%&r&r不明原因死亡"
+  - "&d%victim%&r&r死亡"
+fireball-messages:
+  - "&d%victim%&r&r被杀"
+  - "&d%victim%&r&r被意外的&r火球烧伤"
+  - "&d%victim %&r&r 被 &r 火球风暴困住了"
+arrow-messages:
+  - "&d%victim%&r&r 被 &r 火球齐射弄干了"
+  - "&d%victim%&r&r 被 &rbarrows 雨困住了"

@@ -1,0 +1,386 @@
+prefix: "&l[&5&l2D&d&l2D&r&l]"
+ignore_successful: "&dPlayer &r %s&r &無視するように追加されました&r"
+already_ignoring: "&5あなたはすでにこのプレーヤーを無視しています"
+ignore_command_syntax: "&5コマンドの正しい使い方: /ignore <player_nick>"
+unignore_successful: "&dPlayer &r %s&r &dremoved fromignore&r"
+unignore_not_ignoring: "&5あなたは%sを無視していません"
+unignore_command_syntax: "&5 player: /unignore <player_name>"
+ignorelist_successful: "&d無視されたプレイヤー: &5%s"
+ignorelist_not_ignoring: "&6あなたは誰も無視していません"
+ignorelist_failed: "&6無視されたリストに関する情報を取得できません。"
+whisper_from: "&5%s のささやき: &d%s"
+whisper_to: "&5%s の場合: &d%s"
+whisper_ignoring: "&5% s はあなたを無視しています"
+whisper_you_are_ignoring: "&5無視しているプレーヤーにメッセージを送信することはできません"
+msg_could_not_find_player: "&5プレーヤー %s が見つかりません"
+msg_command_syntax: "&d受信者とメッセージを入力してください: /msg <受信者> <メッセージ>"
+reply_player_offline: "&5プレーヤー %s はオフラインです"
+reply_no_target: "&5まだまだメッセージを送信しました"
+reply_command_syntax: "&5メッセージを入力してください: /r <メッセージ>"
+togglechat_chat_enabled: "&dチャットはオンです"
+togglechat_chat_disabled: "&5チャットはオフです"
+cmdwhitelist_cmd_not_allowed: "&5コマンド&r %s&r&5は使用できません"
+chat_cooldown: "&d次のメッセージを送信するまで&r %d&r&d秒待ってください"
+delhome_no_homes: "&d保存済みの家はありません"
+delhome_specify_home: "&d指定してください削除する家の名前。現在の家: (&r%s&r&d)&r"
+delhome_home_not_found: "&dハウス&r %s&r&d が見つかりません"
+delhome_success: "&dハウス&r %s&r&d が削除されました"
+delhome_fail: "&d家の削除に失敗しました&r %s&r"
+home_no_homes: "&dハウスが見つかりません"
+home_specify_home: "&d家を入力してください。現在の家: (&r%s&r&d)&r"
+home_too_close: "&d/home を使用するには、スポーンから &r %d&r&d ブロック離れている必要があります"
+home_success: "&d家にテレポート&r %s&r&d..."
+home_not_found: "&d家&r %s&r&d が見つかりません"
+sethome_include_name: "&d新しい家の名前を入力してください"
+sethome_home_already_exists: "&5名前のある家&r %s&r&5 はすでに存在します"
+sethome_max_reached: "&dハウスの最大数に達しました!"
+sethome_success: "&dハウス&r %s &r&d がインストールされています"
+kick_restarting: "&dサーバーを再起動しています"
+elytra_too_fast: "&dエリトラの飛行速度が速すぎます"
+elytra_school_zone: "&dあなたは現在スクールゾーンにいます。時速 15 km を超えない速度で運転してください。"
+elytras_disabled: "&dサーバーのハングのため、エリッターは一時的に無効になっています。すぐに戻ってきます"
+bookban_inventory_clear: "&5書籍禁止を防ぐために在庫がクリアされました"
+bookban_removed_item: "&5書籍禁止を防ぐためにすべての&r&d %s(r) &r&5を在庫から削除しました"
+kick_lever_ratelimit: "&5やり取りが早すぎます"
+kick_pps_limit: "&5パケットの送信が早すぎます!"
+kick_failed_to_inject: "&5データの入力に失敗しました"
+join_message: "&7%s が参加しました"
+player_join_first_time: "&7%s が初めてサーバーに参加しました"
+leave_message: "&7%s がサーバーから退出しました"
+kick_message: "&7%s は「%s」のために追い出されました"
+could_not_translate_message: メッセージは %s のため翻訳できませんでした
+message_auto_translated: "メッセージは自動的に翻訳されました。\n\n元のテキスト: %s"
+vote_announcement: "&5%s &6&52d&d2d に投票しました &6、無料で /nc 2 つの追加レンダリング距離と 5 つの追加の家を受け取りました"
+vote_thanks: "&6&52d&d2d に投票していただきありがとうございます &6無料で /nc 2 つの追加のレンダリング距離と 5 つの追加の家を受け取りました"
+vote_info: "&6You &5https://vote.2d2d.org"
+tpa_syntax: "&5 で &52d&d2d &6 に投票できます。テレポート リクエストを送信するプレーヤーを特定してください。 /tpa <プレイヤー>"
+tpa_player_not_online: "&5プレーヤー %s はオフラインです"
+tpa_no_request_found: "&5テレポート リクエストが見つかりません"
+tpa_self_tpa: "&5自分にテレポート リクエストを送信することはできません"
+tpa_request_received: "%s&r&d があなたにテレポートしたいと考えています&r /tpayes &dUSERNAME &5/tpano &dUSERNAME"
+tpa_request_sent: "&dリクエストをプレーヤー&r %s に送信しました"
+tpa_already_sent: "&5すでに保留中のリクエストがあります"
+tpa_teleporting: "&dテレポーテーション&r ..."
+tpa_request_timeout: "&5テレポート リクエストの有効期限が切れました"
+tpa_request_denied_from: "%s&r&5 リクエストが拒否されました"
+tpa_request_denied_to: "&dリクエストは正常に拒否されました"
+tpa_pending_request: "%s&r &5保留中のリクエストがあります"
+tpa_to_left: "&5/tpa は、&r %s&r&5 がゲームから退出したためキャンセルされました"
+op_not_allowed: "&5オペレーターの権限がありません"
+framedupe_cooldown: "&5重複が早すぎます"
+framedupe_items_limit: "&5あります)このチャンク内のアイテムが多すぎるため、重複は発生しません"
+nbtPatch_deleted_item: "&5&6%s&r&5 はデータが重複しているためインベントリから削除されました"
+chest_cooldown: "&5チェストを開けるのが早すぎます。お待ちください。"
+chestlimiter_deleted_chest: "&5&6%s&r&5 チェストは、チャンクあたりの &5&6%s&r&5 チェストの最大数を超えたため削除されました"
+HelpMessage:
+  - "&5---------------------------------------"
+  - "&d詳細については、&5https://www.2d2d.org/ にアクセスしてください"
+  - "&5--------------チーム--------------"
+  - "&b/tpa &6別のプレイヤーにテレポートするには"
+  - "&b/tpayes &6テレポート要求を受け入れる"
+  - "&b/tpano &6テレポート要求を拒否するには"
+  - "&b/sethome &6現在の場所に家を設定するには"
+  - "&b/delhome &6インストールされたホームを削除するには"
+  - "&b/home &6インストールされたホームにテレポートするには"
+  - "&b/スキン セット &6スキンをインストールするには"
+  - "&b/投票 &6サーバーに投票するには"
+  - "&b/discord &6Discord 2d2d への招待を受け取るには"
+  - "&b /kill &6 キャラクターを削除します"
+  - "&b/ignore &6 他のプレイヤーを無視します"
+  - "&b/unignore &6 他のプレイヤーの無視を解除します"
+  - "&b/ignorelist &6 無視しているプレイヤーを表示します"
+  - "&b/msg &6 他のプレイヤーにメッセージを送信します"
+  - "&b/changepass &6パスワードを変更します"
+  - "&b/joindate &6自分や他の人の参加日を表示するには"
+  - "&b/worldstats &6世界の広さを表示するには"
+  - "&b/pvp &62d2d PVP サーバーに接続するには"
+  - "&b/lobby &6ロビーに接続するには"
+  - "&b/tpsinfo &6ティックを確認するにはサーバー上の 1 秒あたりの速度"
+  - "&5------------------有権者のみ--------------"
+  - "&b/nc &6名前の色を設定するには"
+  - "&b/ic &6アイテムの色を設定"
+  - "&dアクセスしてください &bhttps://vote .2d2d.org &6投票用"
+  - "&5----------寄付者のみ--------------"
+  - "&b/seen &6プレーヤーが最後にオンラインだったときの表示"
+  - "&b/echest &6エンダーチェストを開ける"
+  - "&b/nick &6エイリアスを設定する"
+  - "&d訪問する &bhttps://donate.2d2d.org &6寄付する"
+  - "&5----------------------------------------------"
+TabList:
+  Header:
+    - ""
+    - "&l[&5&l2D&d&l2D&r&l]"
+    - ""
+    - ""
+  Footer:
+    - ""
+    - "&dTPS:&b &r[&b%tps% &r] &dPing: &r[&b%ping %&r] &dPlayers: &r[&b%players%&r] &d勤務時間: &r[&b%uptime%&r]"
+    - ""
+    - "&7フィードバック: admin@2d2d.org"
+    - "&7ディスカッション: https://ds .2d2d.org"
+    - "&7ウェブサイト: https://2d2d.org"
+    - ""
+TpsMessage:
+  - "&5-----------TPS 情報----------"
+  - "&bTPS: %s &dMSTP: %s"
+  - "&b地域の最低 TPS: &d%s"
+  - "&bオンライン プレイヤー : %s "
+  - "&5-----------------------------"
+tps_failed: "&5TPS をリクエストすることはできません"
+announcements:
+  - "&l [&5&l2D&d&l2D&r&l] &rアクセス​​ &d&lhttps://vote.2d2d.org &rand voteわからないことを無料で入手するには "
+  - "&l[&5&l2D&d&l2D&r&l] &r2D2D をサポートするために &d&lhttps://donate.2d2d.org"
+  - "&l[ &5&l2D&d&l2D&r&l] &r私たちの不一致 &lds.2d2d.org"
+  - "&l[&5&l2D&d&l2D&r&l] &rアカウントを保護するハッキング &l2fa.2d2d.org"
+  - "&l[&5&l2D&d&l2D&r&l] &rサーバー上のあなたの個人アカウント &llk.2d2d.org"
+  - "&l[&5&l 2D&d&l2D&r&l] &r重複フレームが動作しています "
+global-pvp-death-messages:
+  - "&d%victim%&r&r は &d%killer%&r&r によって殺されました"
+  - "&d%victim%&r&r は &b[%kill-weapon%&b] で &d%killer%&r&r によって殺されました"
+  - "&d%victim%&r&r は &d%killer% &r&r によってノックダウンされました"
+  - "&d%victim%&r&r は &d%killer% によって破壊されました&r&r"
+  - "&d%victim%&r&r は &b[%kill-weapon%&b] を使用した &d%killer%&r&r によって殺されました。"
+  - "&d%victim%&r&r は &b[%kill-weapon%&b] の助けで &d%killer% &r&r によって引き裂かれました%&b]"
+  - "&d%victim%&r&r は &d%killer%&r&r によって迎え撃たれ、彼らの強力な &b[%kill-weapon%&b]"
+  - "&d%victim%&r&r は &d%killer% &r&r によって &b[%kill- Weapon%&b]"
+melee-death-messages:
+  - "&d%victim%&r&r は &d%killer%&r&r によって平手打ちされました"
+  - "&d%victim%&r&r は &d%killer%&r&r によってノックアウトされました"
+  - "&d%victim%&r&r は &d%killer %&r&r"
+fall-damage-messages:
+  - "&d% によって粉砕されましたVictory%&r&r は重力を試すことにしましたが、迷ってしまいました"
+  - "&d%victim%&r&r はパラシュートを取るのを忘れました"
+  - "&d%victim%&r&r は飛べると判断しました…できませんでした"
+drowning-messages:
+  - "&d%victim%&r&r は魚と一緒に寝ることにしました"
+  - " &d%victim%&r&r は酸素が間に合うと思った"
+  - "&d%victim%&r&r は泳いで水を渡ろうとしました"
+suffocation-messages:
+  - "&d%victim%&r&r はブロック内では呼吸できませんでした"
+  - "&d%victim%&r&r は屋内では呼吸できませんでしたブロック"
+  - "&d%victim%&r&rはブロックにだまされました"
+cramming-messages:
+  - "&d%victim%&r&rは忘却の彼方に圧縮されました"
+  - "&r可哀想な&d%victim%&r&r、彼は1x1の空間に住めると思っていました"
+thorns-messages:
+  - "&d%victim%&r&rは、によって投げ返されましたスパイク付きの鎧 &d%killer%&r&r"
+  - " &d%victim%&r&r は &d%killer%&r&r が仕掛けた罠に落ち、スパイク付きで"
+lava-messages:
+  - "&d%victim%&r&r が溶岩の穴で燃えました"
+  - "&d%victim%&r&r は溶岩の中を泳いで燃えてしまいました"
+magma-block-messages:
+  - "&d%victim%&r&r は熱い &bマグマ ブロックで死亡しました "
+  - "&d%victim%&r&r の足は &bマグマ ブロックでベーコンに変わりました"
+elytra-messages:
+  - "&d%victim%&r&r は壁に激突して死亡しました...?"
+  - "&d%victim%&r&rエリトラの壁に固定されていた"
+wither-messages:
+  - "&d%victim%&r&rは&ブウィザー病"
+  - " &d%victim%&r&r&b四次元に消えた"
+suicide-messages:
+  - "&d%victim%&r&rは自殺しました"
+  - "&d%victim%&r&rは神経衰弱を起こして死亡しました"
+fire-messages:
+  - "&d%victim%&r&r は暖炉の前に立っていました"
+  - "&d%victim%&r&r 火遊びをしました"
+fire-tick-messages:
+  - "&d%victim%&r&r 止まるのも転ぶのも忘れました"
+starvation-messages:
+  - "&d%victim%&r&r 食べるのも忘れました"
+  - "&d%victim%&r&r お母さんは食べ物があると言いました自宅で"
+cactus-messages:
+  - "&d%victim%&r&r は刺されて死亡しました"
+  - "&d%victim%&r&r は鍼治療を試みましたが死亡しました"
+  - "&d%victim%&r&r はサボテンに抱きつき死亡しました"
+potion-messages:
+  - "&d%victim%&r&r は悪い薬の犠牲になりました"
+  - "&d%victim%&r&r は死亡しましたコロナウイルスの影響"
+void-messages:
+  - " &d%victim%&r&r は虚空への旅が楽しいだろうと考えました"
+  - "&d%victim%&r&r は虚空への片道旅行に行きました"
+  - "&d%victim%&r&r は宇宙冒険に出かけました...宇宙船がなかった"
+lightning-messages:
+  - "&d%victim%&r&rは神の介入に驚きました"
+  - "&d%victim%&r&rは神によって撃墜されました"
+  - "&d%victim%&r&rは天から衝撃的な警告を受けました"
+falling-block-messages:
+  - "&d%victim%&r&rは落ちてくるブロックに押しつぶされました"
+  - " &d%victim%&r&r は落下物と一体になりました"
+  - "&d%victim%&r&r は落下物で運命を迎えました"
+freeze-messages:
+  - "&d%victim%&r&r は極渦を生き延びることができませんでした"
+  - "&d%victim%&r&r は冬用ジャケットを忘れました"
+  - "&d%victim %&r&r は氷よりも早く凍ってしまいました"
+firework-messages:
+  - "&d%victim%&r&r 花火に点火するのが早すぎました"
+  - "&d%victim%&r&r 効果的に飛行しようとして墜落しました"
+  - "&d%victim%&r&r アマチュア花火の危険性を発見しました"
+slime-messages:
+  - "&d%victim%&r&r &2ナメクジ"
+  - "&d%victim%&r&rが巨大な&2ナメクジに押しつぶされた&r&rスライムボールを集めているときに&2なめられて&r&r生きたまま食べられた&\2ゾンビ"
+zombie-messages:
+  - "&d%victim%&r&r&r&2ゾンビは&r友好的だと思った"
+  - "&d%victim%&r&r&r&bピグマンたちを怒らせた&ランドは彼らに生きたまま食べられました"
+pigman-messages:
+  - "&d%victim%&r&rは&bピグマンたちを怒らせました&r彼らのベーコンになりました"
+  - "&d%victim%&r&rは骨ばった&fスケルトンオームによって正確に殺されました"
+skeleton-messages:
+  - "&d%victim%&r&rは&fスケルトンに撃たれました"
+  - "&d%victim%&r&r巨大な &bマグマ キューブに押しつぶされました"
+magmacube-messages:
+  - "&d%victim%&r&r は砂漠の住人に食べられました、私の意見ですが、&dHask"
+husk-messages:
+  - "&d%victim%&r&r は狡猾な &b スパイダーに騙されました"
+spider-messages:
+  - "&d%victim%&r&r&r&r は &bスパイダー"
+  - "&d%のおやつになりましたVictory%&r&r は &bcave Spider に噛まれて死亡しました"
+cavespider-messages:
+  - "&d%victim%&r&r&r&r は &bcave Spider から毒抱擁を受けました"
+  - "&d%victim%&r&r&r は &0スケルトン グール &rc 石の剣によって破壊されました"
+witherskeleton-messages:
+  - "&d%victim%&r&r&r はから教訓を学びました&0グールの骸骨&rcの石の剣"
+  - "&d%victim%&r&rは&0グールで頭を失いました"
+witherboss-messages:
+  - "&d%victim%&r&rは&0グール&rに挑戦して頭を失いました"
+  - "&d%victim%&r&rは&0グールから致命的な教訓を学びました"
+  - "&d%victim%&r&r、彼の腸は&bドラゴンエンドによって引き裂かれた"
+dragon-messages:
+  - "&d%victim%&r&r 彼の頭は&bエンダードラゴンによって吹き飛ばされた"
+  - "&d%victim%&r&r エンドポータルではなくリスポーン画面を見つけた"
+  - "&d%victim%&r&r&r&r&bエンダーの息吹を浴びたドラゴン"
+dragon-breath-messages:
+  - "&d%victim%&r&r は少し息を吸いすぎました &bエンダー ドラゴン"
+  - "&d%victim%&r&r は &bエンダー ドラゴン"
+  - "&d%victim%&r&r の息によって破壊されました&bエンダー ドラゴン"
+elderguardian-messages:
+  - "&d%victim%&r&r&r&r は海の記念碑を一掃しようとしましたが、&bエルダー ガーディアンはノーと言いました"
+  - "&d%victim%&r&r は海洋記念碑を征服できると考えていましたが、&bエルダー ガーディアン &r は別の計画を立てていました"
+tnt-messages:
+  - "&d%victim%&r&r は &rTNT"
+  - "&d%victim%&r&r が爆破されて頭を失いました &rTNT"
+  - "&d%victim%&r&r は苦労して爆発物について学びました"
+end-crystal-messages:
+  - "&d%victim%&r&r はエンド クリスタルによって引き裂かれました"
+  - "&d%victim% &r&r は爆破されました &bジ エンド クリスタル"
+creeper-messages:
+  - "&d%victim%&r&r は、クリーパーの爆発的な性格を無礼にも表現していました"
+  - "&d%victim%&r&r はクリーパーと衝突し、空中に吹き飛ばされました"
+  - "&d%victim%&r&r はクリーパーの爆発範囲を過小評価していました"
+  - " &d%victim%&r&r はクリーパー&r を解除しようとしました...しかしうまくいきませんでした"
+ghast-messages:
+  - "&d%victim%&r&r は火の玉で撃たれました &bガスタ"
+enderman-messages:
+  - "&d%victim%&r&r&r は &bエンダーマン"
+  - "&d%victim%&r&r の目を見つめました&bエンダーマンとかくれんぼしようとした"
+silverfish-messages:
+  - "&d%victim%&r&rは、セーヌ川の&bウィルムに食べられました"
+witch-messages:
+  - "&d%victim%&r&rは、狡猾な&b魔女に魔法をかけられました"
+  - "&d%victim%&r&r&rは、復讐心に燃える&b魔女によってカエルに変えられました"
+shulker-messages:
+  - "&d%victim%&r&r は &ドラゴンの殻を手に入れようとして死亡しました"
+  - "&d%victim%&r&r は &dシュルカーに撃たれました"
+  - "&d%victim%&r&r は破壊されました &dシュルカー"
+guardian-messages:
+  - "&d%victim%&r&r は &bガーディアンによって死亡しました"
+  - "&d%victim%&r&r&r は電気に打たれました&bガーディアン"
+  - "&d%victim%&r&rは狡猾な人物に追い抜かれました &bガーディアン"
+golem-messages:
+  - "&d%victim%&r&rは怒りました &bアイアン ゴーレム"
+  - "&d%victim%&r&rは&bアイアン ゴーレム"
+  - の激怒を引き起こしました &d%victim%&r&rは&bアイアン ゴーレム外交
+zombievillager-messages:
+  - "&d%victimの教訓を学びました%&r&r は &2ゾンビ村人"
+endermite-messages:
+  - "&d%victim%&r&r に&bエンダーマイトに会った&r は徐々に食べられました"
+  - "&d%victim%&r&r は &bエンダーマイトに騙されました"
+phantom-messages:
+  - "&d%victim%&r&r&r は &bファントム"
+drowned-messages:
+  - "&d%victim%&r&r に誘拐されました&bファントム"
+  - "&d%victim%&r&r&r&r は夜に泳ぎに行きました&2Drowned Zombieに食べられました"
+pillager-messages:
+  - "&d%victim%&r&r&rは、&2Drowned Zombieは泳ぐだけではないことを発見しました"
+ravager-messages:
+  - "&d%victim%&r&rは&dRaidに撃たれました"
+illusioner-messages:
+  - "&d%victim%&r&rは&dRevengerに撃墜されました"
+  - "&d%victim%&r&rはに送られました&bIllusionist"
+  - "&d%victim%&r&r による幻想の世界 &bIllusionist"
+bee-messages:
+  - "&d%victim%&r&r に騙された &bIllusionist"
+  - "&d%victim%&r&r に殺された &bBEE"
+  - "&d%victim%&r&r に会った &bbee &r は彼らがそうではないことが分かった蜂蜜だけを作る"
+wolf-messages:
+  - "&d%victim%&r&rはしつこい&bbeeに刺されました"
+  - "&d%victim%&r&rは&bウルフに引き裂かれました"
+llama-messages:
+  - "&d%victim%&r&rは怒りました&bウルフ"
+  - "&d%victim%&r&rは唾液をかけられました&bLama"
+  - "&d%victim% &r&r は &blamin &r 唾液の炎に巻き込まれました"
+blaze-messages:
+  - "&d%victim%&r&r は口の中が &blamina &rsaliva"
+  - "&d%victim%&r&r で &bFirewing"
+  - "&d%victim%&r&r で焦げました &bFirewing"
+stray-messages:
+  - "&d%victim%&r&r&r は激しい火で焼けました&bFirewings"
+vex-messages:
+  - "&d%victim%&r&r&r は氷に撃たれました &bRogue"
+  - "&d%victim%&r&r は小さな飛行に食べられました &bVex"
+vindicator-messages:
+  - "&d%victim%&r&r&r は &bVex"
+  - "&d%victim に動揺しました%&r&r は &rVindicator"
+  - "&d%victim%&r&r に追われました &rVindicator の力を過小評価していました "
+evoker-messages:
+  - "&d%victim%&r&r は &rVindicator"
+  - "の破壊の道に落ちました&d%victim%&r&r は &rEvoker によって死者に呼び出されました"
+  - "&d%victim%&r&r&r は &rEvoker の怒りを経験しました"
+pufferfish-messages:
+  - "&d%victim%&r&r は &rEvoker によって呼び出されました"
+  - "&d%victim%&r&r&r&r&r&r&r&r&r&rEvoker の毒性を過小評価していました"
+polar-bear-messages:
+  - "&d%victim%&r&r &bフグに会った &r&r は彼女に触れないほうがいいと知りました"
+  - "&d%victim%&r&r は氷で切断されました &fシロクマ"
+dolphin-messages:
+  - "&d%victim%&r&r&r&r は &fシロクマ"
+  - "&d%victim%&r&r&r&r&fシロクマの足の下で雪になりました&bイルカ&r&r を怒らせました。 .. それで負けたのですか?"
+panda-messages:
+  - "&d%victim%&r&r が &bDolphin &ri に当たり、彼らは復讐を果たしました"
+  - "&d%victim%&r&r&r&r&r&8Pandas の夕食になりました"
+piglin-messages:
+  - "&d%victim%&r&r&r&r&r&r&r が &8Pandas から竹を盗もうとしました"
+  - "&d%victim%&r&r&r&r は自分の創造者と出会いました新しい姿の &bPiglins"
+  - "&d%victim%&r&r は &bPiglins &r に遭遇し、生き残るための教訓を学びました "
+hoglin-messages:
+  - "&d%victim%&r&r &bPiglins &r に会い、彼らと交渉する方法がないことに気づきました"
+  - "&d%victim%&r&r は &bHoglin&r に攻撃されました、かなり失礼ですか？"
+zoglin-messages:
+  - "&d%victim%&r&r は &bHoglins に関するパッチノートを読んでいませんでした"
+  - "&d%victim%&r&r&r は夕食に &bZoglin の角を食べました"
+goat-messages:
+  - "&d%victim%&r&r は &bZoglin の角で突き刺されました"
+  - "&d%victim%&r&r&r が殴られました&rヤギの角に突き刺されました"
+zombified-piglin-messages:
+  - "&d%victim%&r&rは&rヤギの角に突き刺されました"
+  - "&d%victim%&r&rは&bブタ&rをオーバーワールドに連れて行き、あまり友好的ではなかった新しいペットに殺されました"
+fox-messages:
+  - "&d%victim%&r&r&rは&bピグマン&rで亡くなりました。つまり、ピッグマン...つまり、ゾンビ化したピッグマン"
+  - "&d%victim%&r&r &bcunning &r&r が &bFox"
+warden-messages:
+  - " &d%victim%&r&r に&bGuardian&r によって殺されたことが判明しました...つまり、何を期待していましたか?"
+  - "&d%victim%&r&rは&bガーディアンの強さを過小評価していました"
+  - "&d%victim%&r&rは&bガーディアンの領域に近づきすぎました"
+warden-sonic-boom-messages:
+  - "&d%victim%&r&rは&bガーディアンからの一撃で耳が聞こえませんでした"
+  - "&d% Victory%&r&r はソニックブームで聴覚を失いました&bガーディアン"
+unknown-messages:
+  - "&d%victim%&r&r は原因不明で死亡しました"
+  - "&d%victim%&r&r が死亡しました"
+  - "&d%victim%&r&r は死亡しました"
+fireball-messages:
+  - "&d%victim%&r&r は予期せぬ &r火球によって火傷を負いました"
+  - "&d%victim %&r&r は &rファイアボールの火災嵐に巻き込まれました"
+  - "&d%victim%&r&r は &rファイアボールの一斉射撃で乾燥しました"
+arrow-messages:
+  - "&d%victim%&r&r は &手押し砲の雨に巻き込まれました"
+  - "&d%victim%&r&r は &barrows&r から逃げようとしました...うまくいきませんでした "

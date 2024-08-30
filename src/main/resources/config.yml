@@ -1,0 +1,167 @@
+AntiIllegal:
+  Enabled: true
+  EnableIllegalBlocksCleaner: true
+  MaxItemNameLength: 51
+  IllegalItems:
+    - 'BEDROCK'
+    - 'BARRIER'
+    - 'END_PORTAL_FRAME'
+    - 'SPAWNER'
+    - 'STRUCTURE_BLOCK'
+    - 'STRUCTURE_VOID'
+    - '*SPAWN_EGG*'
+    - '*COMMAND_BLOCK*'
+    - 'KNOWLEDGE_BOOK'
+    - 'DIRT_PATH'
+    - 'FARMLAND'
+    - 'REINFORCED_DEEPSLATE'
+AnnouncementInterval: 90 # In seconds
+AntiLagChest:
+  enabled: true
+  openCooldown: 1000L
+  maxItemSizeAllowed: 50000 #size in bytes
+NbtBanItemChecker:
+  maxItemSizeAllowed: 50000 #size in bytes
+ChatControl:
+  PreventLinks: true #Uses a list of all TLDs
+  #How long before a player can chat again (In seconds)
+  Cooldown: 5
+  #Blocked words
+  Blocked:
+    - 'Anar Anarchy'
+    - '5b5t'
+    - 'Deja de buscar un servidor y gastar dinero comprando kits y mejor unete al mejor servidor con Kits y Sorteos 100% Grati'
+    - 'snowanarchy'
+    - 'demonmc'
+    - 'snowan'
+    - 'Anar'
+    - 'AnarAnarchy'
+    - '.org'
+    - 'EndPortal'
+    - 'endportal'
+    - 'NetherPortal'
+    - 'netherportal'
+    - '89.35.49.34:19175'
+    - 'SurvivalCraft'
+    - 'Joooin'
+    - '.at'
+    - 'Join 89,35,49,34:19175 Semi-Anarchy Bedrock'
+    - 'Semi-Anarchy'
+    - 'Join'
+    - 'Entra'
+    - '89,35'
+    - 'JOIN'
+    - 'fuck 8b8t'
+    - 'mc.latinomc.tk'
+    - 'AnarchyLatam.ploudos.me'
+    - 'anarchyvn.net'
+    - '9aJSETCQTr'
+    - 'Nar6nCnS8T'
+    - 'gg/9aJSETCQTr'
+    - 'gg/Nar6nCnS8T'
+    - 'lunecraft'
+    - '3b3t.shock.gg'
+    - 'snowаnarchy,оrg'
+    - 'ＳｎｏｗＡｎａｒｃｈｙ,ｏｒｇ ｈａ ａｂｉｅｒｔｏ ｓｕｓ ｐｕｅｒｔａｓ ａ ｊｕｇａｄｏｒｅｓ ｅｓｐａñｏｌｅｓ ｙ ｉｎｇｌｅｓｅｓ， ｅｎｔｒａ ｙ ｄｉｓｆｒｕｔａ'
+    - 'ＳｎｏｗＡｎａｒｃｈｙ,ｏｒg'
+    - 'chad-sigma-topg'
+    - '3b3t,shock,gg'
+    - '3b3t'
+    - '3B3T'
+    - 'DeathAnarchy.nether-zone.com'
+    - '9b9t'
+    - 'discord'
+  CommandWhitelist:
+    - '/ic'
+    - '/nc'
+    - '/ignore'
+    - '/unignore'
+    - '/ignorelist'
+    - '/togglechat'
+    - '/toggledeathmsg'
+    - '/msg'
+    - '/message'
+    - '/whisper'
+    - '/tell'
+    - '/w'
+    - '/reply'
+    - '/r'
+    - '/home'
+    - '/sethome'
+    - '/delhome'
+    - '/help'
+    - '/nick'
+    - '/plugins'
+    - '/pl'
+    - '/kill'
+    - '/stats'
+    - '/discord'
+    - '/tpa'
+    - '/tpayes'
+    - '/tpano'
+    - '/help'
+    - '/worldstats'
+    - '/stats'
+    - '/discord'
+    - '/joindate'
+    - '/jd'
+    - '/seen'
+    - '/echest'
+    - '/voicechat'
+    - '/vote'
+    - '/dupe'
+    - '/tpsinfo'
+TPA:
+  RequestTimeout: 3 # In minutes
+TPS:
+  Permissions:
+    - '2d2dcore.tpsinfo'
+Home:
+  #The closest the player can be to 0,0
+  Radius: 500
+  #Max homes a player can have
+  MaxHomes: 3
+Vote:
+  MaxHomesByVoting: 10
+  AddHomePermission: '2d2dcore.home.max.%d'
+  Permissions: #List of permissions to give the player
+    - '2d2dcore.hui'
+Patch:
+  #Please note that elytra speed is measured in km/h
+  ElytraMaxSpeed: 56.9 #Max speed in blocks/second. Default value is the max speed reachable with firework rockets
+  TileEntityElytraMaxSpeed: 15 #Max speed in a chunk with more than 5 tile entities
+  ChestLimitPerChunk: 192
+  EntityPerChunk:
+    CheckInterval: 1 #In minutes
+    DefaultMax: 15 # -1 for unlimited default max
+    EntitiesPerChunk:
+      - 'wither::20'
+      - 'boat::10'
+      - 'falling_block::200'
+      - 'dropped_item::100'
+  Redstone:
+    StrictTPS: 13 #The tps to start strictly monitoring redstone at
+    StrictMaxVLS: 70 #How many redstone operations per second can happen in strict mode
+    RegularMaxVLS: 20000 #How many redstone operations per second can happen in regular mode
+Commands:
+  # to send to the player for /discord
+  Discord: '&'
+OpUsersWhiteList:
+  - 'GGuPP'
+  - 'Naraks'
+PluginMessagePrefix: '&l[&5&l2d&d&l2d&r&l]&r'
+viewdistance:
+  default: 8
+simulationdistance:
+  default: 4
+FrameDupe:
+  enabled: true
+  dupeCooldown: 200L # Miliseconds
+  limitItemsPerChunk: 18 # Dropped items
+  probabilityPercentage: 100
+ZombieDupe:
+  enabled: true
+  dupeCooldown: 200L # Miliseconds
+  limitItemsPerChunk: 18 # Dropped items
+  probabilityPercentage: 100
+  rottenFleshDropPercentage: 50
