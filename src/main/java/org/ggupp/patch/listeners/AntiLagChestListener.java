@@ -13,11 +13,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
-import static org.ggupp.patch.listeners.NbtBanPatch.getItemName;
-import static org.ggupp.patch.listeners.NbtBanPatch.calculateStringSizeInBytes;
-import static org.ggupp.patch.listeners.NbtBanPatch.processContainerItem;
-import static org.ggupp.util.GlobalUtils.sendPrefixedLocalizedMessage;
 import static org.apache.logging.log4j.LogManager.getLogger;
+import static org.ggupp.patch.listeners.NbtBanPatch.*;
+import static org.ggupp.util.GlobalUtils.sendPrefixedLocalizedMessage;
 
 
 public class AntiLagChestListener implements Listener {

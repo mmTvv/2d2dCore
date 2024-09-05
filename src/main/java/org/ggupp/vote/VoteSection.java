@@ -2,15 +2,14 @@ package org.ggupp.vote;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import org.bukkit.configuration.ConfigurationSection;
+import org.bukkit.entity.Player;
 import org.ggupp.Main;
 import org.ggupp.Section;
-import org.ggupp.home.HomeManager;
 import org.ggupp.util.GlobalUtils;
 import org.ggupp.vote.command.VoteCommand;
 import org.ggupp.vote.io.VoteIO;
 import org.ggupp.vote.listeners.VoteListener;
-import org.bukkit.configuration.ConfigurationSection;
-import org.bukkit.entity.Player;
 
 import java.io.File;
 import java.util.HashMap;

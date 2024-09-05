@@ -1,13 +1,10 @@
 package org.ggupp.patch.workers;
 
 import lombok.RequiredArgsConstructor;
-import org.ggupp.patch.PatchSection;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
-import org.bukkit.Material;
 import org.bukkit.entity.Player;
-import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.PlayerInventory;
+import org.ggupp.patch.PatchSection;
 
 import static org.ggupp.util.GlobalUtils.removeElytra;
 import static org.ggupp.util.GlobalUtils.sendPrefixedLocalizedMessage;

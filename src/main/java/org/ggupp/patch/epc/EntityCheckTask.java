@@ -1,11 +1,11 @@
 package org.ggupp.patch.epc;
 
 import lombok.RequiredArgsConstructor;
-import org.ggupp.patch.PatchSection;
 import org.bukkit.Bukkit;
 import org.bukkit.Chunk;
 import org.bukkit.World;
 import org.bukkit.entity.Entity;
+import org.ggupp.patch.PatchSection;
 
 import java.util.Arrays;
 import java.util.logging.Level;

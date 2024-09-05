@@ -1,15 +1,15 @@
 package org.ggupp.antiillegal.listeners;
 
 import lombok.RequiredArgsConstructor;
-import org.ggupp.antiillegal.AntiIllegalMain;
-import org.ggupp.antiillegal.check.Check;
-import org.ggupp.util.GlobalUtils;
 import org.bukkit.entity.ArmorStand;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.*;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.PlayerInventory;
+import org.ggupp.antiillegal.AntiIllegalMain;
+import org.ggupp.antiillegal.check.Check;
+import org.ggupp.util.GlobalUtils;
 
 import java.util.logging.Level;
 

@@ -1,13 +1,13 @@
 package org.ggupp.antiillegal.check.checks;
 
 import lombok.RequiredArgsConstructor;
-import org.ggupp.antiillegal.check.Check;
-import org.ggupp.util.GlobalUtils;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.TextDecoration;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
+import org.ggupp.antiillegal.check.Check;
+import org.ggupp.util.GlobalUtils;
 
 @RequiredArgsConstructor
 public class NameCheck implements Check {

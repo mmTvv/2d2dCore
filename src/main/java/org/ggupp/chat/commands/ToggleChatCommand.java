@@ -1,12 +1,12 @@
 package org.ggupp.chat.commands;
 
 import lombok.RequiredArgsConstructor;
-import org.ggupp.chat.ChatInfo;
-import org.ggupp.chat.ChatSection;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+import org.ggupp.chat.ChatInfo;
+import org.ggupp.chat.ChatSection;
 import org.jetbrains.annotations.NotNull;
 
 import static org.ggupp.util.GlobalUtils.sendMessage;

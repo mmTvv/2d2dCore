@@ -2,8 +2,9 @@ package org.ggupp.deathmessages;
 
 import java.util.Arrays;
 import java.util.Set;
-import static org.apache.logging.log4j.LogManager.getLogger;
 import java.util.stream.Collectors;
+
+import static org.apache.logging.log4j.LogManager.getLogger;
 
 
 public enum DeathCause {

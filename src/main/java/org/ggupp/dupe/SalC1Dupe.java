@@ -1,12 +1,11 @@
 package org.ggupp.dupe;
 
-import org.ggupp.Main;
-import org.bukkit.entity.*;
-import org.bukkit.event.Listener;
-import org.bukkit.inventory.ItemStack;
 import org.bukkit.Material;
+import org.bukkit.entity.*;
 import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerInteractAtEntityEvent;
+import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class SalC1Dupe implements Listener {

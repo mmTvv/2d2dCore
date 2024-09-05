@@ -1,11 +1,10 @@
 package org.ggupp.antiillegal.check.checks;
 
-import org.ggupp.antiillegal.check.Check;
-import org.ggupp.util.GlobalUtils;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.BlockStateMeta;
+import org.ggupp.antiillegal.check.Check;
+import org.ggupp.util.GlobalUtils;
 
-import java.lang.reflect.Method;
 import java.util.logging.Level;
 
 

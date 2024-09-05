@@ -1,10 +1,10 @@
 package org.ggupp.command.commands;
 
-import org.ggupp.command.BaseCommand;
-import org.ggupp.util.GlobalUtils;
 import net.kyori.adventure.text.TextComponent;
 import org.bukkit.Bukkit;
 import org.bukkit.command.CommandSender;
+import org.ggupp.command.BaseCommand;
+import org.ggupp.util.GlobalUtils;
 
 public class SayCommand extends BaseCommand {
 

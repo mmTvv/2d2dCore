@@ -1,10 +1,10 @@
 package org.ggupp.chat.tasks;
 
-import org.ggupp.Localization;
-import org.ggupp.util.GlobalUtils;
 import net.kyori.adventure.text.TextComponent;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
+import org.ggupp.Localization;
+import org.ggupp.util.GlobalUtils;
 
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;

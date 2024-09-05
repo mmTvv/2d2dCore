@@ -1,6 +1,10 @@
 package org.ggupp;
 
 import lombok.Getter;
+import org.bukkit.configuration.ConfigurationSection;
+import org.bukkit.event.HandlerList;
+import org.bukkit.event.Listener;
+import org.bukkit.plugin.java.JavaPlugin;
 import org.ggupp.antiillegal.AntiIllegalMain;
 import org.ggupp.chat.ChatSection;
 import org.ggupp.chat.listeners.OpWhiteListListener;
@@ -13,14 +17,11 @@ import org.ggupp.deathmessages.DeathMessageListener;
 import org.ggupp.dupe.DupeSection;
 import org.ggupp.dupe.SalC1Dupe;
 import org.ggupp.home.HomeManager;
+import org.ggupp.kitstart.KitStartSection;
 import org.ggupp.patch.PatchSection;
 import org.ggupp.tablist.TabSection;
 import org.ggupp.tpa.TPASection;
 import org.ggupp.vote.VoteSection;
-import org.bukkit.configuration.ConfigurationSection;
-import org.bukkit.event.HandlerList;
-import org.bukkit.event.Listener;
-import org.bukkit.plugin.java.JavaPlugin;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -70,6 +71,7 @@ public class Main extends JavaPlugin {
         register(new PlayerSimulationDistance(this));
         register(new OpWhiteListListener(this));
         register(new SalC1Dupe(this));
+        register(new KitStartSection(this));
 
         if(getConfig().getBoolean("AntiIllegal.Enabled", true)) register(new AntiIllegalMain(this));
         if (getServer().getPluginManager().getPlugin("VotifierPlus") != null) register(new VoteSection(this));

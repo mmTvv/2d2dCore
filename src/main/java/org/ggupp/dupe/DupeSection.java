@@ -3,14 +3,13 @@ package org.ggupp.dupe;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.Accessors;
+import org.bukkit.configuration.ConfigurationSection;
+import org.bukkit.inventory.ItemStack;
 import org.ggupp.Main;
 import org.ggupp.Section;
 import org.ggupp.dupe.framedupe.FrameDupe;
-
 import org.ggupp.dupe.zombiedupe.ZombieDupe;
 import org.ggupp.util.GlobalUtils;
-import org.bukkit.configuration.ConfigurationSection;
-import org.bukkit.inventory.ItemStack;
 
 
 

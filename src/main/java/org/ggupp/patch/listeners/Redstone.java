@@ -1,8 +1,5 @@
 package org.ggupp.patch.listeners;
 
-import org.ggupp.ViolationManager;
-import org.ggupp.patch.PatchSection;
-import org.ggupp.util.GlobalUtils;
 import org.bukkit.block.Block;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.event.Cancellable;
@@ -12,6 +9,9 @@ import org.bukkit.event.block.BlockEvent;
 import org.bukkit.event.block.BlockPistonExtendEvent;
 import org.bukkit.event.block.BlockPistonRetractEvent;
 import org.bukkit.event.block.BlockRedstoneEvent;
+import org.ggupp.ViolationManager;
+import org.ggupp.patch.PatchSection;
+import org.ggupp.util.GlobalUtils;
 
 import java.util.concurrent.ThreadLocalRandom;
 

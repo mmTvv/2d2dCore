@@ -1,12 +1,12 @@
 package org.ggupp.command.commands;
 
+import org.bukkit.Bukkit;
+import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
 import org.ggupp.Localization;
 import org.ggupp.Main;
 import org.ggupp.command.BaseCommand;
 import org.ggupp.util.GlobalUtils;
-import org.bukkit.Bukkit;
-import org.bukkit.command.CommandSender;
-import org.bukkit.entity.Player;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -2,12 +2,12 @@ package org.ggupp.vote.listeners;
 
 import com.vexsoftware.votifier.model.VotifierEvent;
 import lombok.RequiredArgsConstructor;
-import org.ggupp.util.GlobalUtils;
-import org.ggupp.vote.VoteSection;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
+import org.ggupp.util.GlobalUtils;
+import org.ggupp.vote.VoteSection;
 
 
 @RequiredArgsConstructor

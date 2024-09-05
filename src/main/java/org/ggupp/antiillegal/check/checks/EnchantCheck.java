@@ -1,8 +1,9 @@
 package org.ggupp.antiillegal.check.checks;
 
-import org.ggupp.antiillegal.check.Check;import org.bukkit.enchantments.Enchantment;
+import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
+import org.ggupp.antiillegal.check.Check;
 
 import java.util.Map;
 

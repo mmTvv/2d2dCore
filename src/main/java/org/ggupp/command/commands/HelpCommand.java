@@ -1,10 +1,10 @@
 package org.ggupp.command.commands;
 
-import org.ggupp.Localization;
-import org.ggupp.command.BaseCommand;
 import net.kyori.adventure.text.TextComponent;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+import org.ggupp.Localization;
+import org.ggupp.command.BaseCommand;
 
 import static org.ggupp.util.GlobalUtils.sendMessage;
 import static org.ggupp.util.GlobalUtils.translateChars;

@@ -1,6 +1,7 @@
 package org.ggupp.antiillegal.check.checks;
 
-import org.ggupp.antiillegal.check.Check;import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.ItemStack;
+import org.ggupp.antiillegal.check.Check;
 
 
 public class IllegalDataCheck implements Check {

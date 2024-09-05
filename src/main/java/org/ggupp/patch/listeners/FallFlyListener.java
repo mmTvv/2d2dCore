@@ -1,11 +1,11 @@
 package org.ggupp.patch.listeners;
 
-import org.ggupp.Main;
-import org.ggupp.ViolationManager;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityToggleGlideEvent;
+import org.ggupp.Main;
+import org.ggupp.ViolationManager;
 
 import static org.ggupp.util.GlobalUtils.removeElytra;
 

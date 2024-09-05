@@ -2,12 +2,9 @@ package org.ggupp.util;
 
 import lombok.Cleanup;
 import lombok.Getter;
-import org.ggupp.Localization;
-import org.ggupp.Main;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.TextComponent;
 import net.kyori.adventure.text.serializer.legacy.LegacyComponentSerializer;
-
 import net.kyori.adventure.text.serializer.plain.PlainTextComponentSerializer;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
@@ -17,15 +14,16 @@ import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.PlayerInventory;
+import org.ggupp.Localization;
+import org.ggupp.Main;
 
 import java.io.File;
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.util.List;
+import java.util.Random;
 import java.util.concurrent.CompletableFuture;
 import java.util.logging.Level;
-
-import java.util.Random;
 
 public class GlobalUtils {
     @Getter private static final String PREFIX = Main.prefix;
