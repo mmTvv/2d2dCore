@@ -3,10 +3,10 @@ package org.ggupp.antiillegal.listeners;
 import org.bukkit.Chunk;
 import org.bukkit.Material;
 import org.bukkit.World;
-import org.bukkit.block.Block;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.world.ChunkLoadEvent;
+import org.bukkit.block.Block;
 
 
 public class IllegalBlocksCleaner implements Listener {

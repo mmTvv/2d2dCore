@@ -3,20 +3,21 @@ package org.ggupp.antiillegal;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.Accessors;
-import org.bukkit.Material;
-import org.bukkit.configuration.ConfigurationSection;
-import org.bukkit.event.Cancellable;
-import org.bukkit.inventory.ItemStack;
 import org.ggupp.Main;
 import org.ggupp.Section;
 import org.ggupp.antiillegal.check.Check;
 import org.ggupp.antiillegal.check.checks.*;
 import org.ggupp.antiillegal.listeners.*;
 import org.ggupp.util.GlobalUtils;
+import org.bukkit.Material;
+import org.bukkit.configuration.ConfigurationSection;
+import org.bukkit.event.Cancellable;
+import org.bukkit.inventory.ItemStack;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.logging.Level;
 
 @Getter
 @RequiredArgsConstructor

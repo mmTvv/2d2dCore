@@ -1,9 +1,9 @@
 package org.ggupp.antiillegal.check.checks;
 
+import org.ggupp.antiillegal.check.Check;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.Damageable;
 import org.bukkit.inventory.meta.ItemMeta;
-import org.ggupp.antiillegal.check.Check;
 
 public class DurabilityCheck implements Check {
     @Override

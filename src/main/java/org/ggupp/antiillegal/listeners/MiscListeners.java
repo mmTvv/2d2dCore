@@ -2,13 +2,13 @@ package org.ggupp.antiillegal.listeners;
 
 import io.papermc.paper.event.block.BlockPreDispenseEvent;
 import lombok.RequiredArgsConstructor;
+import org.ggupp.antiillegal.AntiIllegalMain;
 import org.bukkit.entity.ArmorStand;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.ItemFrame;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.world.ChunkLoadEvent;
-import org.ggupp.antiillegal.AntiIllegalMain;
 
 import static org.ggupp.antiillegal.util.Utils.checkStand;
 

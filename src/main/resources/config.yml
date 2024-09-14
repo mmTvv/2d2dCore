@@ -165,6 +165,3 @@ ZombieDupe:
   limitItemsPerChunk: 18 # Dropped items
   probabilityPercentage: 100
   rottenFleshDropPercentage: 50
-KitStart:
-  enabled: false
-  teleport: false

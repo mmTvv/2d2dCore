@@ -1,14 +1,15 @@
 package org.ggupp.customexperience;
 
+import org.ggupp.customexperience.util.PrefixManager;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import org.bukkit.event.player.PlayerJoinEvent;
-import org.bukkit.event.player.PlayerRespawnEvent;
+import org.bukkit.event.player.*;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.ggupp.customexperience.util.PrefixManager;
 import org.spigotmc.event.player.PlayerSpawnLocationEvent;
+
+import static org.apache.logging.log4j.LogManager.getLogger;
 
 
 public class PlayerPrefix implements Listener {

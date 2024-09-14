@@ -1,10 +1,10 @@
 package org.ggupp.chat.listeners;
 
 import lombok.RequiredArgsConstructor;
+import org.ggupp.chat.ChatSection;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerCommandPreprocessEvent;
-import org.ggupp.chat.ChatSection;
 
 import java.util.List;
 

@@ -1,13 +1,18 @@
 package org.ggupp.tablist.util;
 
+import org.ggupp.util.GlobalUtils;
 import net.kyori.adventure.text.Component;
 import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
-import org.ggupp.util.GlobalUtils;
-
+import org.bukkit.ChatColor;
+import java.io.*;
+import java.text.DecimalFormat;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.logging.Level;
+
 import java.util.concurrent.CompletableFuture;
 
 public class Utils {

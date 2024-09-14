@@ -1,9 +1,9 @@
 package org.ggupp.command;
 
 import lombok.Getter;
+import org.ggupp.util.GlobalUtils;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.ggupp.util.GlobalUtils;
 
 import java.util.Optional;
 

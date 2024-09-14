@@ -4,6 +4,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.bukkit.Location;
 
+import java.util.UUID;
+
 @Data
 @AllArgsConstructor
 public class Home {

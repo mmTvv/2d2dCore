@@ -1,9 +1,9 @@
 package org.ggupp.command.commands;
 
-import org.bukkit.command.CommandSender;
 import org.ggupp.Main;
 import org.ggupp.command.BaseCommand;
 import org.ggupp.tablist.util.Utils;
+import org.bukkit.command.CommandSender;
 
 import static org.ggupp.util.GlobalUtils.sendMessage;
 

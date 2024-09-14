@@ -1,8 +1,8 @@
 package org.ggupp.command.commands;
 
+import org.ggupp.command.BaseTabCommand;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.EntityType;
-import org.ggupp.command.BaseTabCommand;
 
 import java.util.ArrayList;
 import java.util.List;

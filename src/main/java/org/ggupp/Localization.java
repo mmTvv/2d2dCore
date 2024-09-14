@@ -1,9 +1,9 @@
 package org.ggupp;
 
 import lombok.RequiredArgsConstructor;
+import org.ggupp.util.GlobalUtils;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.configuration.file.YamlConfiguration;
-import org.ggupp.util.GlobalUtils;
 
 import java.io.File;
 import java.util.HashMap;

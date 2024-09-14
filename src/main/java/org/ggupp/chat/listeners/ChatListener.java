@@ -1,6 +1,10 @@
 package org.ggupp.chat.listeners;
 
 import lombok.RequiredArgsConstructor;
+import org.ggupp.chat.ChatInfo;
+import org.ggupp.chat.ChatSection;
+import org.ggupp.customexperience.util.PrefixManager;
+import org.ggupp.util.GlobalUtils;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.TextComponent;
 import net.kyori.adventure.text.format.TextColor;
@@ -11,11 +15,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
-import org.ggupp.chat.ChatInfo;
-import org.ggupp.chat.ChatSection;
-import org.ggupp.customexperience.util.PrefixManager;
-import org.ggupp.util.GlobalUtils;
-
 import java.util.HashSet;
 import java.util.List;
 import java.util.concurrent.ScheduledExecutorService;

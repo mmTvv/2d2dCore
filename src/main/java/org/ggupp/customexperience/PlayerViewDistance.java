@@ -8,7 +8,6 @@ import org.bukkit.permissions.PermissionAttachmentInfo;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.logging.Level;
-
 import static org.ggupp.util.GlobalUtils.log;
 
 

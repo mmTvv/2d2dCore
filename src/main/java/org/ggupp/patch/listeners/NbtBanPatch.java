@@ -1,6 +1,7 @@
 package org.ggupp.patch.listeners;
 
 import org.bukkit.block.Container;
+import org.bukkit.block.ShulkerBox;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -13,8 +14,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import java.nio.charset.StandardCharsets;
 
-import static org.apache.logging.log4j.LogManager.getLogger;
 import static org.ggupp.util.GlobalUtils.sendPrefixedLocalizedMessage;
+import static org.apache.logging.log4j.LogManager.getLogger;
 
 public class NbtBanPatch implements Listener {
     private final JavaPlugin plugin;

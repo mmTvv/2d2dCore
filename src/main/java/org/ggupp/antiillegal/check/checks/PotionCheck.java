@@ -1,9 +1,9 @@
 package org.ggupp.antiillegal.check.checks;
 
+import org.ggupp.antiillegal.check.Check;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.PotionMeta;
 import org.bukkit.potion.PotionEffect;
-import org.ggupp.antiillegal.check.Check;
 
 import java.util.Iterator;
 

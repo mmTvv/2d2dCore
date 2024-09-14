@@ -1,10 +1,10 @@
 package org.ggupp.tablist.listeners;
 
 import lombok.RequiredArgsConstructor;
+import org.ggupp.tablist.TabSection;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
-import org.ggupp.tablist.TabSection;
 
 
 @RequiredArgsConstructor

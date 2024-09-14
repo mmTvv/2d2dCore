@@ -2,9 +2,11 @@ package org.ggupp.command;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
-import org.bukkit.configuration.ConfigurationSection;
 import org.ggupp.Main;
 import org.ggupp.Section;
+import org.bukkit.configuration.ConfigurationSection;
+
+import static org.ggupp.util.GlobalUtils.info;
 
 
 @Getter

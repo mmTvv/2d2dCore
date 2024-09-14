@@ -1,5 +1,6 @@
 package org.ggupp.vote.command;
 
+import org.ggupp.util.GlobalUtils;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;

@@ -1,13 +1,15 @@
 package org.ggupp.patch.listeners;
 
 import lombok.RequiredArgsConstructor;
+import org.ggupp.Main;
+import org.ggupp.tablist.util.Utils;
+import org.ggupp.util.GlobalUtils;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityPortalEnterEvent;
-import org.ggupp.Main;
-import org.ggupp.util.GlobalUtils;
+import org.bukkit.event.entity.EntityPortalEvent;
 
 import java.util.Arrays;
 import java.util.HashSet;

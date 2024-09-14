@@ -1,9 +1,8 @@
 package org.ggupp.antiillegal.check.checks;
 
-import org.bukkit.inventory.ItemFlag;
+import org.ggupp.antiillegal.check.Check;import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
-import org.ggupp.antiillegal.check.Check;
 
 public class AttributeCheck implements Check {
     @Override

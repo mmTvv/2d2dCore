@@ -1,8 +1,8 @@
 package org.ggupp.tablist.worker;
 
 import lombok.RequiredArgsConstructor;
-import org.bukkit.Bukkit;
 import org.ggupp.tablist.TabSection;
+import org.bukkit.Bukkit;
 
 
 @RequiredArgsConstructor

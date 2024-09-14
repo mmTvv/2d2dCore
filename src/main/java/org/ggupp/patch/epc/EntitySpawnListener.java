@@ -2,12 +2,12 @@ package org.ggupp.patch.epc;
 
 import com.destroystokyo.paper.event.entity.EntityAddToWorldEvent;
 import lombok.RequiredArgsConstructor;
+import org.ggupp.patch.PatchSection;
 import org.bukkit.Chunk;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import org.ggupp.patch.PatchSection;
 
 import java.util.Arrays;
 import java.util.logging.Level;

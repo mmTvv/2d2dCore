@@ -1,11 +1,11 @@
 package org.ggupp.antiillegal.check.checks;
 
+import org.ggupp.antiillegal.check.Check;
+import org.ggupp.util.GlobalUtils;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.TextComponent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.BookMeta;
-import org.ggupp.antiillegal.check.Check;
-import org.ggupp.util.GlobalUtils;
 
 import java.nio.charset.CharsetEncoder;
 import java.nio.charset.StandardCharsets;

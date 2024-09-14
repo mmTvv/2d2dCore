@@ -1,9 +1,6 @@
 package org.ggupp.tablist;
 
 import lombok.RequiredArgsConstructor;
-import org.bukkit.ChatColor;
-import org.bukkit.configuration.ConfigurationSection;
-import org.bukkit.entity.Player;
 import org.ggupp.Localization;
 import org.ggupp.Main;
 import org.ggupp.Section;
@@ -11,6 +8,9 @@ import org.ggupp.customexperience.util.PrefixManager;
 import org.ggupp.tablist.listeners.PlayerJoinListener;
 import org.ggupp.tablist.util.Utils;
 import org.ggupp.tablist.worker.TabWorker;
+import org.bukkit.ChatColor;
+import org.bukkit.configuration.ConfigurationSection;
+import org.bukkit.entity.Player;
 
 import java.util.concurrent.TimeUnit;
 

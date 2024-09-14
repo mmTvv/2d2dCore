@@ -1,12 +1,12 @@
 package org.ggupp.chat.listeners;
 
 import lombok.RequiredArgsConstructor;
+import org.ggupp.chat.ChatSection;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerKickEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
-import org.ggupp.chat.ChatSection;
 
 @RequiredArgsConstructor
 public class JoinLeaveListener implements Listener {

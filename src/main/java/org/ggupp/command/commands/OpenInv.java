@@ -1,10 +1,10 @@
 package org.ggupp.command.commands;
 
 
+import org.ggupp.command.BaseCommand;
 import org.bukkit.Bukkit;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.ggupp.command.BaseCommand;
 
 import static org.ggupp.util.GlobalUtils.sendMessage;
 

@@ -1,6 +1,9 @@
 package org.ggupp.tpa.commands;
 
 import lombok.RequiredArgsConstructor;
+import org.ggupp.Localization;
+import org.ggupp.tpa.TPASection;
+import org.ggupp.util.GlobalUtils;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.TextComponent;
 import net.kyori.adventure.text.TextReplacementConfig;
@@ -10,9 +13,6 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.ggupp.Localization;
-import org.ggupp.tpa.TPASection;
-import org.ggupp.util.GlobalUtils;
 import org.jetbrains.annotations.NotNull;
 
 import static org.ggupp.util.GlobalUtils.*;

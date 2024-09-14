@@ -1,14 +1,14 @@
 package org.ggupp.chat.commands;
 
 import lombok.RequiredArgsConstructor;
+import org.ggupp.chat.ChatCommand;
+import org.ggupp.chat.ChatInfo;
+import org.ggupp.chat.ChatSection;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.ggupp.chat.ChatCommand;
-import org.ggupp.chat.ChatInfo;
-import org.ggupp.chat.ChatSection;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Arrays;

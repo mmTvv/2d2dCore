@@ -1,11 +1,11 @@
 package org.ggupp.antiillegal.listeners;
 
 import lombok.RequiredArgsConstructor;
+import org.ggupp.antiillegal.AntiIllegalMain;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.*;
 import org.bukkit.inventory.ItemStack;
-import org.ggupp.antiillegal.AntiIllegalMain;
 
 @RequiredArgsConstructor
 public class InventoryListeners implements Listener {
