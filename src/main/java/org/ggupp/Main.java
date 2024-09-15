@@ -13,6 +13,7 @@ import org.ggupp.deathmessages.DeathMessageListener;
 import org.ggupp.dupe.DupeSection;
 import org.ggupp.dupe.SalC1Dupe;
 import org.ggupp.home.HomeManager;
+import org.ggupp.kitstart.KitStartSection;
 import org.ggupp.patch.PatchSection;
 import org.ggupp.tablist.TabSection;
 import org.ggupp.tpa.TPASection;
@@ -70,6 +71,7 @@ public class Main extends JavaPlugin {
         register(new PlayerSimulationDistance(this));
         register(new OpWhiteListListener(this));
         register(new SalC1Dupe(this));
+        register(new KitStartSection(this));
 
         if(getConfig().getBoolean("AntiIllegal.Enabled", true)) register(new AntiIllegalMain(this));
         if (getServer().getPluginManager().getPlugin("VotifierPlus") != null) register(new VoteSection(this));

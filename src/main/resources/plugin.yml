@@ -35,6 +35,7 @@ commands:
   world:
   vote:
   tpsinfo:
+  kit:
 permissions:
   2d2dcore.viewdistance.default:
     description: Permission for the default view distance
