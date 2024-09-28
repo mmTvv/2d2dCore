@@ -4,12 +4,14 @@ import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.ggupp.eglow.Constants;
 import org.ggupp.eglow.EGlowSection;
+import org.ggupp.util.GlobalUtils;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.logging.Level;
 
 public class DataManager {
     private static EGlowSection main;
@@ -18,7 +20,7 @@ public class DataManager {
 
     public static void init(EGlowSection _main){
         main = _main;
-        loadEffect();
+        loadEffects();
     }
 
     public static EGlowPlayer addPlayer(Player player, String uuid){
@@ -42,20 +44,27 @@ public class DataManager {
         return _effects;
     }
 
-    private static void loadEffect(){
+    private static void loadEffects(){
         if(main.config().getBoolean("Eglow.loadVanillaColorEffect")) {
             for (ChatColor color : Constants.colors) {
                 String configName = color.name().toLowerCase().replace("ı", "i").replace("dark_purple", "purple").replace("light_purple", "pink").replace("reset", "none").replace(" ", "");
                 String name = configName.replace("_", "");
+
+                GlobalUtils.log(Level.INFO, String.format("Add effect: %s ", name));
+
                 addEGlowEffect(name, 50, color);
             }
             addEGlowEffect("none", 50, ChatColor.RESET);
         }
 
         if(main.config().getBoolean("Eglow.loadRainbowEffect")) {
+            GlobalUtils.log(Level.INFO, "Add effect: rainbowslow");
             addEGlowEffect("rainbowslow", main.config().getInt("Eglow.delay.slow"), Constants.colors);
+            GlobalUtils.log(Level.INFO, "Add effect: rainbowfast");
             addEGlowEffect("rainbowfast", main.config().getInt("Eglow.delay.fast"), Constants.colors);
         }
+
+        effects.putAll(main.customEffectsStoroge().load());
     }
 
     public static EGlowPlayer getEGlowPlayer(Player player) {

@@ -33,6 +33,11 @@ public class EGlowCommand implements TabExecutor {
                 return false;
             }
 
+            if(args[0].equals("reload") && player.hasPermission("2d2dcore.eglow.reload")){
+                main.reloadConfig();
+                return true;
+            }
+
             EGlowPlayer eGlowPlayer = DataManager.getEGlowPlayer(player);
 
             EGlowEffect eGlowEffect = null;
@@ -105,6 +110,10 @@ public class EGlowCommand implements TabExecutor {
                     }
                     suggestions.add("off");
                     suggestions.add("disable");
+
+                    if(sender.hasPermission("2d2dcore.eglow.reload")){
+                        suggestions.add("reload");
+                    }
 
                     StringUtil.copyPartialMatches(strings[0], suggestions, finalSuggestions);
                     break;

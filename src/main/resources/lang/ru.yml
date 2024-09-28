@@ -77,12 +77,15 @@ chest_cooldown: "&5Вы открываете сундуки слишком бы�
 chestlimiter_deleted_chest: "&5&6%s&r&5 сундуков было удалено, так как они превысили максимальное количество &5&6%s&r&5 сундуков на чанк"
 glow_removed: "эффект удалён"
 
-# EGlow Color
+# EGlow
 eglow_disable_commands: "Комманда отключена"
 eglow_sync_error: "Ошибка синтаксиса"
 eglow_disable: "Свечение отключена"
 eglow_same: "У вас уже выбран этот эффект"
 eglow_set: "Успешно установил эффект свечения %s"
+eglow_not_permission_effect: "Нету разрешения на %s&r эффект"
+
+# EGlow Color
 eglow_color.red: "&cКрасный"
 eglow_color.dark-red: "&4Тёмно крамный"
 eglow_color.gold: "&6Золотой"
@@ -104,7 +107,10 @@ eglow_color.rainbowslow: "&cR&6a&ei&an&bb&9o&dw &6Медленый"
 eglow_color.rainbowfast: "&cR&6a&ei&an&bb&9o&dw &aБыстрый"
 eglow_color.effect-blink: "&eB&fl&ei&fn&ek"
 eglow_color.effect-rainbow: "&cR&6a&ei&an&bb&9o&dw"
-eglow_not_permission_effect: "Нету разрешения на %s&r эффект"
+
+# EGlow custom effect
+eglow_color.test: "тест"
+eglow_color.test2: "тест2"
 
 #Complex messages
 HelpMessage:

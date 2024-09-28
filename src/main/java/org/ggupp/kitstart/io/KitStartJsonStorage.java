@@ -27,6 +27,9 @@ public class KitStartJsonStorage {
         try {
             JsonObject obj = new JsonObject();
 
+            if(data == null || data.getPlatformPos1() == null){
+                return;
+            }
             obj.addProperty("world", data.getPlatformPos1().getWorld().getName());
 
             JsonObject plat1Obg = new JsonObject();
@@ -51,7 +54,7 @@ public class KitStartJsonStorage {
             @Cleanup FileWriter fw = new FileWriter(file, false);
             gson.toJson(obj, fw);
         } catch (Throwable t) {
-            GlobalUtils.log(Level.SEVERE, "Failed to save Kit Start platform pos for&r&a %s&r&c. Please see the stacktrace below for more info");
+            GlobalUtils.log(Level.SEVERE, "Failed to save Kit Start platform pos for&r&a. Please see the stacktrace below for more info");
             t.printStackTrace();
         }
     }

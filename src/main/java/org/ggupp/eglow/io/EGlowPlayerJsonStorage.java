@@ -15,7 +15,7 @@ import java.io.FileWriter;
 import java.util.logging.Level;
 
 @RequiredArgsConstructor
-public class EGlowJsonStorage implements EGlowStorege<EGlowPlayer> {
+public class EGlowPlayerJsonStorage implements EGlowStorege<EGlowPlayer> {
     private final File dataDir;
     private final Gson gson = new GsonBuilder().setPrettyPrinting().create();
 

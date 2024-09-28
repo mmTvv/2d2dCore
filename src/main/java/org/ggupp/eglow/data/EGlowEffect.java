@@ -41,7 +41,6 @@ public class EGlowEffect {
         return  "2d2dcore.eglow.effect." + name;
     }
 
-
     private void actionEffect() {
         //System.out.println("e " + getName());
         if(getTask() == null) {
@@ -62,6 +61,10 @@ public class EGlowEffect {
                         getPlayers().forEach((player, progress) -> {
                             //System.out.println("4 " + getName());
                             ChatColor color = effectColors.get(progress);
+                            if(player.getPlayer() == null){
+                                getPlayers().remove(player);
+                                return;
+                            }
 
                             for (EGlowPlayer player1 : DataManager.getEGlowPlayers()) {
                                 if (player.getPlayer().isListed(player1.getPlayer()) && player.getPlayer().getLocation().distance(player1.getPlayer().getLocation()) < 40) {
