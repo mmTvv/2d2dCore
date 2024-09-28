@@ -70,6 +70,9 @@ public class KitStartJsonStorage {
 
             @Cleanup FileReader reader = new FileReader(file);
             JsonObject obj = gson.fromJson(reader, JsonObject.class);
+            if(obj == null){
+                return new KitStartData(defailtLocation, defailtLocation, defailtLocation);
+            }
             JsonObject plat1Obg = obj.get("plat1Obg").getAsJsonObject();
             JsonObject plat2Obg = obj.get("plat2Obg").getAsJsonObject();
             JsonObject teleportPosObg = obj.get("teleportObg").getAsJsonObject();
@@ -85,7 +88,7 @@ public class KitStartJsonStorage {
 
             return new KitStartData(platLocation1, platLocation2, teleportLocation);
         } catch (Throwable t) {
-            GlobalUtils.log(Level.SEVERE, "&cFailed to parse&r&a %s&r&c. This is most likely due to malformed json");
+            GlobalUtils.log(Level.SEVERE, "&cFailed to parse&r&a &r&c. This is most likely due to malformed json");
             t.printStackTrace();
             return null;
         }

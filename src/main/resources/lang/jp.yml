@@ -48,7 +48,7 @@ join_message: "&7%s が参加しました"
 player_join_first_time: "&7%s が初めてサーバーに参加しました"
 leave_message: "&7%s がサーバーから退出しました"
 kick_message: "&7%s は「%s」のために追い出されました"
-could_not_translate_message: メッセージは %s のため翻訳できませんでした
+could_not_translate_message: "メッセージは %s のため翻訳できませんでした"
 message_auto_translated: "メッセージは自動的に翻訳されました。\n\n元のテキスト: %s"
 vote_announcement: "&5%s &6&52d&d2d に投票しました &6、無料で /nc 2 つの追加レンダリング距離と 5 つの追加の家を受け取りました"
 vote_thanks: "&6&52d&d2d に投票していただきありがとうございます &6無料で /nc 2 つの追加のレンダリング距離と 5 つの追加の家を受け取りました"
