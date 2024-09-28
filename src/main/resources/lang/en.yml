@@ -45,7 +45,7 @@
   kick_pps_limit: "&5You are sending packets too quickly!"
   kick_failed_to_inject: "&5Failed to enter data"
   join_message: "&7%s has joined"
-  player_join_first_time: " &7%s joined the server for the first time"
+  player_join_first_time: "&7%s joined the server for the first time"
   leave_message: "&7%s left the server"
   kick_message: "&7%s was kicked out for \"%s\""
   could_not_translate_message: "Failed to translate message due to %s"
@@ -155,7 +155,7 @@
       - ""
     Footer:
       - ""
-      - "&dTPS:&b &r[&b%tps%&r] &dPing: &r[&b%ping %&r] &dPlayers: &r[&b%players%&r] &dWorking hours: &r[&b%uptime%&r]"
+      - "&dTPS:&b &r[&b%tps%&r] &dPing: &r[&b%ping%&r] &dPlayers: &r[&b%players%&r] &dWorking hours: &r[&b%uptime%&r]"
       - ""
       - "&7Feedback: admin@2d2d.org"
       - "&7Discussion: https://ds.2d2d.org"
@@ -169,12 +169,12 @@
     - "&5-----------------------"
   tps_failed: "&5You are not allowed to request TPS"
   announcements:
-    - "&l [&5&l2D&d&l2D&r&l] &rVisit &d&lhttps://vote.2d2d.org &rand vote to get free SOMETHING I DON’T KNOW WHAT "
+    - "&l[&5&l2D&d&l2D&r&l] &rVisit &d&lhttps://vote.2d2d.org &rand vote to get free SOMETHING I DON’T KNOW WHAT "
     - "&l[&5&l2D&d&l2D&r&l] &rDonate to support 2D2D at &d&lhttps://donate.2d2d.org"
-    - "&l[ &5&l2D&d&l2D&r&l] &rOur discord &lds.2d2d.org"
+    - "&l[&5&l2D&d&l2D&r&l] &rOur discord &lds.2d2d.org"
     - "&l[&5&l2D&d&l2D&r&l] &rProtect your account from hacking &l2fa.2d2d.org"
     - "&l[&5&l2D&d&l2D&r&l] &rYour personal account on the server &llk.2d2d.org"
-    - "&l[&5&l 2D&d&l2D&r&l] &rWe have a dupe frame working "
+    - "&l[&5&l2D&d&l2D&r&l] &rWe have a dupe frame working "
   global-pvp-death-messages:
     - "&d%victim%&r&r was killed by &d%killer%&r&r"
     - "&d%victim%&r&r was killed by &d%killer%&r&r with &b[%kill-weapon%&b]"
