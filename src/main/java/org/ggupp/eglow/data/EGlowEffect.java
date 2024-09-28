@@ -36,7 +36,6 @@ public class EGlowEffect {
         setName(name);
         setDelay(delay);
         Collections.addAll(effectColors, colors);
-        System.out.println(dyeColor + " " + colors[0]);
         this.materialColor = dyeColor;
     }
 
