@@ -111,6 +111,7 @@ ChatControl:
     - '/vote'
     - '/dupe'
     - '/tpsinfo'
+    - '/eglow'
 TPA:
   RequestTimeout: 3 # In minutes
 TPS:
@@ -148,7 +149,7 @@ Commands:
   Discord: '&'
 OpUsersWhiteList:
   - 'GGuPP'
-  - 'Naraks'
+  - 'Nakars'
 PluginMessagePrefix: '&l[&5&l2d&d&l2d&r&l]&r'
 viewdistance:
   default: 8
@@ -168,3 +169,13 @@ ZombieDupe:
 KitStart:
   enabled: false
   teleport: false
+Eglow:
+  loadCustomEffect: true
+  loadRainbowEffect: true
+  loadVanillaColorEffect: true
+  enableEffectOnJoin: true
+  toggleGui: true
+  enableCommands: true
+  delay:
+    slow: 20 # ticks
+    fast: 10 # ticks
