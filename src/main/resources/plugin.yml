@@ -36,6 +36,7 @@ commands:
   vote:
   tpsinfo:
   kit:
+  eglow:
 permissions:
   2d2dcore.viewdistance.default:
     description: Permission for the default view distance

@@ -1,0 +1,22 @@
+{
+  "test": {
+    "name": "test",
+    "delay": 20,
+    "colors": [
+      "red",
+      "green",
+      "yellow"
+    ]
+  },
+  "test2": {
+    "name": "test2",
+    "delay": 10,
+    "colors": [
+      "red",
+      "gold",
+      "green",
+      "liGHT_PURPLE"
+    ],
+    "material": "GRASS_BLOCK"
+  }
+}

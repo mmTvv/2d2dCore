@@ -75,6 +75,48 @@ framedupe_items_limit: "&5В этом чанке слишком много пр�
 nbtPatch_deleted_item: "&5&6%s&r&5 был удален из вашего инвентаря из-за избыточных данных"
 chest_cooldown: "&5Вы открываете сундуки слишком быстро. Пожалуйста, подождите!"
 chestlimiter_deleted_chest: "&5&6%s&r&5 сундуков было удалено, так как они превысили максимальное количество &5&6%s&r&5 сундуков на чанк"
+glow_removed: "эффект удалён"
+
+# EGlow
+eglow_disable_commands: "&cКомманда отключена"
+eglow_sync_error: "&4Ошибка синтаксиса"
+eglow_disable: "&6Свечение отключена"
+eglow_same: "&eУ вас уже выбран этот эффект"
+eglow_set: "&aУспешно установил эффект свечения &b%s"
+eglow_not_permission_effect: "&cНету разрешения на %s&r эффект"
+
+# EGlow menu
+eglow_name_menu: "&6Выбор эффектов:"
+eglow_menu_next_page: "&aСледующая страница"
+eglow_menu_pre_page: "&aПредыдущая страница"
+eglow_menu_disable_effect: "&cОтключить эффект"
+
+# EGlow Color
+eglow_color.red: "&cКрасный"
+eglow_color.darkred: "&4Тёмно крамный"
+eglow_color.gold: "&6Золотой"
+eglow_color.yellow: "&eЖелтый"
+eglow_color.green: "&aЗелёный"
+eglow_color.darkgreen: "&2Тёмно Зелёный"
+eglow_color.aqua: "&bАква"
+eglow_color.darkaqua: "&3Тёмно аква"
+eglow_color.blue: "&9Синий"
+eglow_color.darkblue: "&1Тёмно Синий"
+eglow_color.purple: "&5Фиолетовый"
+eglow_color.pink: "&dРозовый"
+eglow_color.white: "&fБелый"
+eglow_color.gray: "&7Серый"
+eglow_color.darkgray: "&8Тёмно серый"
+eglow_color.black: "&8Чёрный"
+eglow_color.none: "&fНикакой"
+eglow_color.rainbowslow: "&cR&6a&ei&an&bb&9o&dw &6Медленый"
+eglow_color.rainbowfast: "&cR&6a&ei&an&bb&9o&dw &aБыстрый"
+eglow_color.effect-blink: "&eB&fl&ei&fn&ek"
+eglow_color.effect-rainbow: "&cR&6a&ei&an&bb&9o&dw"
+
+# EGlow custom effect
+eglow_color.test: "&7тест"
+eglow_color.test2: "&8тест2"
 
 #Complex messages
 HelpMessage:

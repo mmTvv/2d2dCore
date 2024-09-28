@@ -27,6 +27,9 @@ public class KitStartJsonStorage {
         try {
             JsonObject obj = new JsonObject();
 
+            if(data == null || data.getPlatformPos1() == null){
+                return;
+            }
             obj.addProperty("world", data.getPlatformPos1().getWorld().getName());
 
             JsonObject plat1Obg = new JsonObject();
@@ -51,7 +54,7 @@ public class KitStartJsonStorage {
             @Cleanup FileWriter fw = new FileWriter(file, false);
             gson.toJson(obj, fw);
         } catch (Throwable t) {
-            GlobalUtils.log(Level.SEVERE, "Failed to save Kit Start platform pos for&r&a %s&r&c. Please see the stacktrace below for more info");
+            GlobalUtils.log(Level.SEVERE, "Failed to save Kit Start platform pos for&r&a. Please see the stacktrace below for more info");
             t.printStackTrace();
         }
     }
@@ -67,6 +70,9 @@ public class KitStartJsonStorage {
 
             @Cleanup FileReader reader = new FileReader(file);
             JsonObject obj = gson.fromJson(reader, JsonObject.class);
+            if(obj == null){
+                return new KitStartData(defailtLocation, defailtLocation, defailtLocation);
+            }
             JsonObject plat1Obg = obj.get("plat1Obg").getAsJsonObject();
             JsonObject plat2Obg = obj.get("plat2Obg").getAsJsonObject();
             JsonObject teleportPosObg = obj.get("teleportObg").getAsJsonObject();
@@ -82,7 +88,7 @@ public class KitStartJsonStorage {
 
             return new KitStartData(platLocation1, platLocation2, teleportLocation);
         } catch (Throwable t) {
-            GlobalUtils.log(Level.SEVERE, "&cFailed to parse&r&a %s&r&c. This is most likely due to malformed json");
+            GlobalUtils.log(Level.SEVERE, "&cFailed to parse&r&a &r&c. This is most likely due to malformed json");
             t.printStackTrace();
             return null;
         }
