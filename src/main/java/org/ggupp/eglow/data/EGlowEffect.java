@@ -5,7 +5,12 @@ import lombok.Getter;
 import lombok.Setter;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
+import org.bukkit.DyeColor;
+import org.bukkit.Material;
+import org.bukkit.entity.Player;
+import org.ggupp.Localization;
 import org.ggupp.eglow.EGlowSection;
+import org.ggupp.eglow.utils.ColorUtil;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -20,17 +25,28 @@ public class EGlowEffect {
     private ScheduledTask task;
     private ArrayList<ChatColor> effectColors = new ArrayList<>();
     private ConcurrentHashMap<EGlowPlayer, Integer> players = new ConcurrentHashMap<>();
+    private final Material materialColor;
 
     public EGlowEffect(EGlowSection main, String name, int delay, ChatColor... colors){
+        this(main, name, delay, ColorUtil.getMaterial(colors[0]), colors);
+    }
+
+    public EGlowEffect(EGlowSection main, String name, int delay, Material dyeColor, ChatColor... colors){
         setMain(main);
         setName(name);
         setDelay(delay);
         Collections.addAll(effectColors, colors);
+        System.out.println(dyeColor + " " + colors[0]);
+        this.materialColor = dyeColor;
     }
 
     public void addPlayer(EGlowPlayer player){
         getPlayers().put(player, 0);
         actionEffect();
+    }
+
+    public String getDisplayName(Player sender){
+        return Localization.getLocalization(sender.getLocale()).get("eglow_color." + this.getName());
     }
 
     public void removePlayer(EGlowPlayer player){

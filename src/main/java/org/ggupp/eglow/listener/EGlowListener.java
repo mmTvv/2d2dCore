@@ -5,12 +5,14 @@ import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
+import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerKickEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
 import org.ggupp.eglow.EGlowSection;
 import org.ggupp.eglow.data.DataManager;
 import org.ggupp.eglow.data.EGlowPlayer;
+import org.ggupp.eglow.gui.EGlowMenu;
 
 import java.util.UUID;
 
@@ -31,6 +33,13 @@ public class EGlowListener implements Listener {
     @EventHandler
     public void PlayerDisconnectEvent(PlayerQuitEvent event) {
         playerDisconnect(event.getPlayer());
+    }
+
+    @EventHandler
+    public void inventoryClick(InventoryClickEvent event){
+        if(event.getInventory().getHolder() instanceof EGlowMenu menu){
+            menu.handleClick(event);
+        }
     }
 
     public void playerDisconnect(Player player) {

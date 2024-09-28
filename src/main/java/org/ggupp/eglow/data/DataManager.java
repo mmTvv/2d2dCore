@@ -54,7 +54,7 @@ public class DataManager {
 
                 addEGlowEffect(name, 50, color);
             }
-            addEGlowEffect("none", 50, ChatColor.RESET);
+            //addEGlowEffect("none", 50, ChatColor.RESET);
         }
 
         if(main.config().getBoolean("Eglow.loadRainbowEffect")) {

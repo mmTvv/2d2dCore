@@ -4,6 +4,7 @@ import com.google.gson.*;
 import lombok.Cleanup;
 import lombok.RequiredArgsConstructor;
 import org.bukkit.ChatColor;
+import org.bukkit.Material;
 import org.ggupp.eglow.EGlowSection;
 import org.ggupp.eglow.data.DataManager;
 import org.ggupp.eglow.data.EGlowEffect;
@@ -42,7 +43,14 @@ public class EGlowCustomEffectsJsonStoroge {
                         colors[i] = ChatColor.valueOf(configName.toUpperCase());
                     }
 
-                    EGlowEffect effect = new EGlowEffect(main, name, delay, colors);
+                    EGlowEffect effect;
+
+                    if(effectData.get("material") != null){
+                        effect = new EGlowEffect(main, name, delay, Material.getMaterial(effectData.get("material").getAsString()), colors);
+                    } else {
+                        effect = new EGlowEffect(main, name, delay, colors);
+                    }
+
                     customEffects.put(entry.getKey(), effect);
                     GlobalUtils.log(Level.INFO, String.format("Add custom effect: %s ", name));
                 }

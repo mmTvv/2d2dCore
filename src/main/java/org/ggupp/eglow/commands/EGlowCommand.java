@@ -11,6 +11,7 @@ import org.ggupp.eglow.EGlowSection;
 import org.ggupp.eglow.data.DataManager;
 import org.ggupp.eglow.data.EGlowEffect;
 import org.ggupp.eglow.data.EGlowPlayer;
+import org.ggupp.eglow.gui.EGlowMenu;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -33,12 +34,21 @@ public class EGlowCommand implements TabExecutor {
                 return false;
             }
 
-            if(args[0].equals("reload") && player.hasPermission("2d2dcore.eglow.reload")){
-                main.reloadConfig();
+            if (args.length == 0) {
+                EGlowMenu menu = new EGlowMenu(player);
+                menu.open();
                 return true;
             }
 
             EGlowPlayer eGlowPlayer = DataManager.getEGlowPlayer(player);
+
+            if (args[0].equals("reload") && player.hasPermission("2d2dcore.eglow.reload")) {
+                main.reloadConfig();
+                return true;
+            } else if (args[0].equals("disable") || args[0].equals("off")) {
+                eGlowPlayer.disableGlow();
+                sendPrefixedLocalizedMessage(eGlowPlayer.getPlayer(), "eglow_disable");
+            }
 
             EGlowEffect eGlowEffect = null;
             EGlowEffect currentEGlowEffect = eGlowPlayer.getGlowEffect();
@@ -70,22 +80,18 @@ public class EGlowCommand implements TabExecutor {
                 return false;
             }
 
-            if (eGlowEffect.getName().equals("none")) {
-                eGlowPlayer.disableGlow();
-                sendPrefixedLocalizedMessage(eGlowPlayer.getPlayer(), "eglow_disable");
-            } else {
-                if(!player.hasPermission(eGlowEffect.getPermissionNode())){
-                    sendPrefixedLocalizedMessage(eGlowPlayer.getPlayer(), "eglow_not_permission_effect", Localization.getLocalization(player.getLocale()).get("eglow_color." + eGlowEffect.getName()));
-                    return false;
-                }
-                if (eGlowPlayer.getGlowEffect() != null && eGlowPlayer.getGlowEffect().equals(eGlowEffect)) {
-                    sendPrefixedLocalizedMessage(eGlowPlayer.getPlayer(), "eglow_same");
-                    return false;
-                }
-
-                eGlowPlayer.setEffect(eGlowEffect);
-                sendPrefixedLocalizedMessage(player, "eglow_set", Localization.getLocalization(player.getLocale()).get("eglow_color." + eGlowEffect.getName()));
+            if (!player.hasPermission(eGlowEffect.getPermissionNode())) {
+                sendPrefixedLocalizedMessage(eGlowPlayer.getPlayer(), "eglow_not_permission_effect", eGlowEffect.getDisplayName(player));
+                return false;
             }
+            if (eGlowPlayer.getGlowEffect() != null && eGlowPlayer.getGlowEffect().equals(eGlowEffect)) {
+                sendPrefixedLocalizedMessage(eGlowPlayer.getPlayer(), "eglow_same");
+                return false;
+            }
+
+            eGlowPlayer.setEffect(eGlowEffect);
+            sendPrefixedLocalizedMessage(player, "eglow_set", eGlowEffect.getDisplayName(player));
+
         }
         return false;
     }
