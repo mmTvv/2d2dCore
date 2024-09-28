@@ -73,6 +73,47 @@ framedupe_items_limit: "&5那里此块中的物品太多，因此不再发生重
 nbtPatch_deleted_item: "&5&6%s&r&5 由于冗余数据已从您的库存中删除"
 chest_cooldown: "&5您打开宝箱的速度太快。请稍候！"
 chestlimiter_deleted_chest: "&5&6%s&r&5 个宝箱已被移除，因为它们超出了每块 &5&6%s&r&5 个宝箱的最大数量"
+# EGlow
+eglow_disable_commands: "&c命令已禁用"
+eglow_sync_error: "&4语法错误"
+eglow_disable: "&6光效已禁用"
+eglow_same: "&e您已选择此效果"
+eglow_set: "&a成功设置光效 &b%s"
+eglow_not_permission_effect: "&c没有 %s&r 效果的权限"
+
+# EGlow menu
+eglow_name_menu: "&6效果选择："
+eglow_menu_next_page: "&a下一页"
+eglow_menu_pre_page: "&a上一页"
+eglow_menu_disable_effect: "&c禁用效果"
+
+# EGlow Color
+eglow_color.red: "&c红色"
+eglow_color.darkred: "&4深红色"
+eglow_color.gold: "&6金色"
+eglow_color.yellow: "&e黄色"
+eglow_color.green: "&a绿色"
+eglow_color.darkgreen: "&2深绿色"
+eglow_color.aqua: "&b水蓝色"
+eglow_color.darkaqua: "&3深水蓝"
+eglow_color.blue: "&9蓝色"
+eglow_color.darkblue: "&1深蓝色"
+eglow_color.purple: "&5紫色"
+eglow_color.pink: "&d粉色"
+eglow_color.white: "&f白色"
+eglow_color.gray: "&7灰色"
+eglow_color.darkgray: "&8深灰色"
+eglow_color.black: "&8黑色"
+eglow_color.none: "&f无"
+eglow_color.rainbowslow: "&cR&6a&ei&an&bb&9o&dw &6慢"
+eglow_color.rainbowfast: "&cR&6a&ei&an&bb&9o&dw &a快"
+eglow_color.effect-blink: "&eB&fl&ei&fn&ek"
+eglow_color.effect-rainbow: "&cR&6a&ei&an&bb&9o&dw"
+
+# EGlow custom effect
+eglow_color.test: "&7测试"
+eglow_color.test2: "&8测试2"
+
 HelpMessage:
   - "&5----------------------------------------"
   - "&d请访问 &5https://www.2d2d.org/ &6 了解更多信息"
@@ -115,7 +156,7 @@ TabList:
     - ""
   Footer:
     - ""
-    - "&dTPS:&b &r[&b%tps% &r] &dPing: &r[&b%ping %&r] &d玩家: &r[&b%players%&r] &d工作时间: &r[&b%uptime%&r]"
+    - "&dTPS:&b &r[&b%tps% &r] &dPing: &r[&b%ping%&r] &d玩家: &r[&b%players%&r] &d工作时间: &r[&b%uptime%&r]"
     - ""
     - "&7反馈: admin@2d2d.org"
     - "&7讨论: https://ds .2d2d.org"

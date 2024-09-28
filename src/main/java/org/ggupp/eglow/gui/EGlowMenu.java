@@ -69,7 +69,7 @@ public class EGlowMenu implements InventoryHolder {
         ItemStack redWool = new ItemStack(Material.RED_WOOL, 1);
         ItemMeta woolMeta = glassPane.getItemMeta();
         if (paneMeta != null) {
-            woolMeta.setDisplayName(Localization.getLocalization(sender.locale().getLanguage()).get("eglow_menu_disable_effect"));
+            woolMeta.setDisplayName(Localization.getLocalization(sender.locale().getLanguage()).get("eglow_menu_disable_effect").replace("&", "§"));
             redWool.setItemMeta(woolMeta);
         }
 
@@ -78,7 +78,7 @@ public class EGlowMenu implements InventoryHolder {
         ItemStack nextPageArrow = new ItemStack(Material.ARROW, 1);
         ItemMeta nextMeta = nextPageArrow.getItemMeta();
         if (nextMeta != null) {
-            nextMeta.setDisplayName(Localization.getLocalization(sender.locale().getLanguage()).get("eglow_menu_next_page"));
+            nextMeta.setDisplayName(Localization.getLocalization(sender.locale().getLanguage()).get("eglow_menu_next_page").replace("&", "§"));
             nextPageArrow.setItemMeta(nextMeta);
         }
         inventory.setItem(51, nextPageArrow);
@@ -86,7 +86,7 @@ public class EGlowMenu implements InventoryHolder {
         ItemStack previousPageArrow = new ItemStack(Material.ARROW, 1);
         ItemMeta prevMeta = previousPageArrow.getItemMeta();
         if (prevMeta != null) {
-            prevMeta.setDisplayName(Localization.getLocalization(sender.locale().getLanguage()).get("eglow_menu_pre_page"));
+            prevMeta.setDisplayName(Localization.getLocalization(sender.locale().getLanguage()).get("eglow_menu_pre_page").replace("&", "§"));
             previousPageArrow.setItemMeta(prevMeta);
         }
         inventory.setItem(47, previousPageArrow);
@@ -124,10 +124,9 @@ public class EGlowMenu implements InventoryHolder {
             eGlowPlayer.disableGlow();
             sendPrefixedLocalizedMessage(eGlowPlayer.getPlayer(), "eglow_disable");
         } else {
-            int clickedSlot = event.getSlot();
-            if (clickedSlot >= 0 && clickedSlot < itemsPage - 1) {
-                List<EGlowEffect> effects = DataManager.getEGlowEffects();
-                EGlowEffect effect = effects.get(currentPage * itemsPage + clickedSlot);
+            if(event.getInventory().getItem(event.getSlot()) == null) return;
+            if (event.getSlot() >= 0 && event.getSlot() < itemsPage - 1) {
+                EGlowEffect effect = DataManager.getEGlowEffects().get(currentPage * itemsPage + event.getSlot());
                 if(!sender.hasPermission(effect.getPermissionNode())){
                     sendPrefixedLocalizedMessage(sender, "eglow_not_permission_effect", effect.getDisplayName(sender));
                     sender.closeInventory();

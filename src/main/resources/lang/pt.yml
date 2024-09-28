@@ -73,6 +73,47 @@ framedupe_items_limit: "&5Ali há muitos itens neste pedaço, então a duplicaç
 nbtPatch_deleted_item: "&5&6%s&r&5 foi removido do seu inventário devido a dados redundantes"
 chest_cooldown: "&5Você está abrindo baús muito rapidamente. Aguarde!"
 chestlimiter_deleted_chest: "&5&6%s&r&5 baús foram removidos porque excederam o número máximo de &5&6%s&r&5 baús por bloco"
+# EGlow
+eglow_disable_commands: "&cComando desativado"
+eglow_sync_error: "&4Erro de sintaxe"
+eglow_disable: "&6Brilho desativado"
+eglow_same: "&eVocê já selecionou este efeito"
+eglow_set: "&aEfeito de brilho definido com sucesso &b%s"
+eglow_not_permission_effect: "&cSem permissão para o efeito %s&r"
+
+# EGlow menu
+eglow_name_menu: "&6Seleção de efeitos:"
+eglow_menu_next_page: "&aPróxima página"
+eglow_menu_pre_page: "&aPágina anterior"
+eglow_menu_disable_effect: "&cDesativar efeito"
+
+# EGlow Color
+eglow_color.red: "&cVermelho"
+eglow_color.darkred: "&4Vermelho escuro"
+eglow_color.gold: "&6Dourado"
+eglow_color.yellow: "&eAmarelo"
+eglow_color.green: "&aVerde"
+eglow_color.darkgreen: "&2Verde escuro"
+eglow_color.aqua: "&bAqua"
+eglow_color.darkaqua: "&3Aqua escuro"
+eglow_color.blue: "&9Azul"
+eglow_color.darkblue: "&1Azul escuro"
+eglow_color.purple: "&5Roxo"
+eglow_color.pink: "&dRosa"
+eglow_color.white: "&fBranco"
+eglow_color.gray: "&7Cinza"
+eglow_color.darkgray: "&8Cinza escuro"
+eglow_color.black: "&8Preto"
+eglow_color.none: "&fNenhum"
+eglow_color.rainbowslow: "&cR&6a&ei&an&bb&9o&dw &6Devagar"
+eglow_color.rainbowfast: "&cR&6a&ei&an&bb&9o&dw &aRápido"
+eglow_color.effect-blink: "&eB&fl&ei&fn&ek"
+eglow_color.effect-rainbow: "&cR&6a&ei&an&bb&9o&dw"
+
+# EGlow custom effect
+eglow_color.test: "&7teste"
+eglow_color.test2: "&8teste2"
+
 HelpMessage:
   - "&5---------------------------------------------------"
   - "&dVisite &5https://www.2d2d.org/ &6para obter mais informações"
@@ -115,7 +156,7 @@ TabList:
     - ""
   Footer:
     - ""
-    - "&dTPS:&b &r[&b%tps% &r] &dPing: &r[&b%ping %&r] &dJogadores: &r[&b%players%&r] &dHorário de trabalho: &r[&b%uptime%&r]"
+    - "&dTPS:&b &r[&b%tps% &r] &dPing: &r[&b%ping%&r] &dJogadores: &r[&b%players%&r] &dHorário de trabalho: &r[&b%uptime%&r]"
     - ""
     - "&7Feedback: admin@2d2d.org"
     - "&7Discussão: https://ds .2d2d.org"

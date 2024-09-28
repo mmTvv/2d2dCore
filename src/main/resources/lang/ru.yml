@@ -78,18 +78,18 @@ chestlimiter_deleted_chest: "&5&6%s&r&5 сундуков было удалено
 glow_removed: "эффект удалён"
 
 # EGlow
-eglow_disable_commands: "Комманда отключена"
-eglow_sync_error: "Ошибка синтаксиса"
-eglow_disable: "Свечение отключена"
-eglow_same: "У вас уже выбран этот эффект"
-eglow_set: "Успешно установил эффект свечения %s"
-eglow_not_permission_effect: "Нету разрешения на %s&r эффект"
-eglow_name_menu: "Выбор эффектов:"
+eglow_disable_commands: "&cКомманда отключена"
+eglow_sync_error: "&4Ошибка синтаксиса"
+eglow_disable: "&6Свечение отключена"
+eglow_same: "&eУ вас уже выбран этот эффект"
+eglow_set: "&aУспешно установил эффект свечения &b%s"
+eglow_not_permission_effect: "&cНету разрешения на %s&r эффект"
 
 # EGlow menu
-eglow_menu_next_page: "Следующая страница"
-eglow_menu_pre_page: "Предыдущая страница"
-eglow_menu_disable_effect: "Отключить эффект"
+eglow_name_menu: "&6Выбор эффектов:"
+eglow_menu_next_page: "&aСледующая страница"
+eglow_menu_pre_page: "&aПредыдущая страница"
+eglow_menu_disable_effect: "&cОтключить эффект"
 
 # EGlow Color
 eglow_color.red: "&cКрасный"
@@ -115,8 +115,8 @@ eglow_color.effect-blink: "&eB&fl&ei&fn&ek"
 eglow_color.effect-rainbow: "&cR&6a&ei&an&bb&9o&dw"
 
 # EGlow custom effect
-eglow_color.test: "тест"
-eglow_color.test2: "тест2"
+eglow_color.test: "&7тест"
+eglow_color.test2: "&8тест2"
 
 #Complex messages
 HelpMessage:

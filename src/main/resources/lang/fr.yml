@@ -55,7 +55,7 @@ vote_announcement: "&5%s &6 ont voté pour &52d&d2d &6 et ont reçu gratuitement
 vote_thanks: "&dBienvenue sur 2d2d"
 vote_info: "&5%s &6a voté pour &52d&d2d &6et a reçu gratuitement /nc 2 distances de rendu supplémentaires et 5 maisons supplémentaires"
 tpa_syntax: "&6Merci d'avoir voté pour &52d&d2d &6Vous avez reçu gratuitement /nc 2 distances de rendu supplémentaires et 5 maisons supplémentaires"
-tpa_player_not_online: " &6Vous peut voter pour &52d&d2d &6at &5https://vote.2d2d.org"
+tpa_player_not_online: "&6Vous peut voter pour &52d&d2d &6at &5https://vote.2d2d.org"
 tpa_no_request_found: "&5Veuillez identifier le joueur pour soumettre la demande de téléportation. /tpa <joueur>"
 tpa_self_tpa: "&5Le joueur %s est hors ligne"
 tpa_request_received: "&5Demande de téléportation introuvable"
@@ -73,12 +73,55 @@ framedupe_items_limit: "&5Vous n'avez pas l'autorisation d'opérateur"
 nbtPatch_deleted_item: "&5Vous dupliquez trop vite"
 chest_cooldown: "&5Là Il y a trop d'articles dans ce bloc, donc la duplication ne se produit plus"
 chestlimiter_deleted_chest: "&5&6%s&r&5 a été supprimé de votre inventaire en raison de données redondantes"
+
+# EGlow
+eglow_disable_commands: "&cCommande désactivée"
+eglow_sync_error: "&4Erreur de syntaxe"
+eglow_disable: "&6Lueur désactivée"
+eglow_same: "&eVous avez déjà cet effet sélectionné"
+eglow_set: "&aEffet de lueur défini avec succès &b%s"
+eglow_not_permission_effect: "&cPas de permission pour l'effet %s&r"
+
+# EGlow menu
+eglow_name_menu: "&6Sélection des effets :"
+eglow_menu_next_page: "&aPage suivante"
+eglow_menu_pre_page: "&aPage précédente"
+eglow_menu_disable_effect: "&cDésactiver l'effet"
+
+# EGlow Color
+eglow_color.red: "&cRouge"
+eglow_color.darkred: "&4Rouge foncé"
+eglow_color.gold: "&6Or"
+eglow_color.yellow: "&eJaune"
+eglow_color.green: "&aVert"
+eglow_color.darkgreen: "&2Vert foncé"
+eglow_color.aqua: "&bAqua"
+eglow_color.darkaqua: "&3Aqua foncé"
+eglow_color.blue: "&9Bleu"
+eglow_color.darkblue: "&1Bleu foncé"
+eglow_color.purple: "&5Violet"
+eglow_color.pink: "&dRose"
+eglow_color.white: "&fBlanc"
+eglow_color.gray: "&7Gris"
+eglow_color.darkgray: "&8Gris foncé"
+eglow_color.black: "&8Noir"
+eglow_color.none: "&fAucun"
+eglow_color.rainbowslow: "&cR&6a&ei&an&bb&9o&dw &6Lent"
+eglow_color.rainbowfast: "&cR&6a&ei&an&bb&9o&dw &aRapide"
+eglow_color.effect-blink: "&eB&fl&ei&fn&ek"
+eglow_color.effect-rainbow: "&cR&6a&ei&an&bb&9o&dw"
+
+# EGlow custom effect
+eglow_color.test: "&7test"
+eglow_color.test2: "&8test2"
+
 HelpMessage:
+  - "&5--------------------------------------"
   - "&5Vous ouvrez les coffres trop rapidement. Veuillez patienter!"
   - "&5&6%s&r&5coffres ont été supprimés car ils dépassaient le nombre maximum de &5&6%s&r&5coffres par morceau"
-  - "&5----------------------- - -------------"
+  - "&5---------------------------------------"
   - "&dVisitez &5https://www.2d2d.org/ &6pour plus d'informations"
-  - "&5--------------Équipes--- -- -----------"
+  - "&5--------------Équipes------------------"
   - "&b/tpa &6pour se téléporter vers un autre joueur"
   - "&b/tpayes &6pour accepter une demande de téléportation"
   - "&b/tpano &6pour rejeter une demande de téléportation"
@@ -110,7 +153,7 @@ HelpMessage:
 TabList:
   Header:
     - "&dVisitez &bhttps://donate.2d2d.org &6pour faire un don"
-    - "&5------- --------- ----------------------"
+    - "&5----------------------------------------"
     - ""
     - "&l[&5&l2D&d&l2D&r&l]"
   Footer:

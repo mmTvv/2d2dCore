@@ -72,6 +72,48 @@ framedupe_items_limit: "&5Ahí Hay demasiados elementos en este fragmento, por l
 nbtPatch_deleted_item: "&5&6%s&r&5 se ha eliminado de tu inventario debido a datos redundantes."
 chest_cooldown: "&5Estás abriendo cofres demasiado rápido. ¡Espera!"
 chestlimiter_deleted_chest: "&5&6%s&r&5 cofres fueron eliminados porque excedieron el número máximo de &5&6%s&r&5 cofres por porción"
+
+# EGlow
+eglow_disable_commands: "&cCommand disabled"
+eglow_sync_error: "&4Syntax error"
+eglow_disable: "&6Glow disabled"
+eglow_same: "&eYou already have this effect selected"
+eglow_set: "&aSuccessfully set glow effect &b%s"
+eglow_not_permission_effect: "&cNo permission for %s&r effect"
+
+# EGlow menu
+eglow_name_menu: "&6Effect selection:"
+eglow_menu_next_page: "&aNext page"
+eglow_menu_pre_page: "&aPrevious page"
+eglow_menu_disable_effect: "&cDisable effect"
+
+# EGlow Color
+eglow_color.red: "&cRed"
+eglow_color.darkred: "&4Dark red"
+eglow_color.gold: "&6Gold"
+eglow_color.yellow: "&eYellow"
+eglow_color.green: "&aGreen"
+eglow_color.darkgreen: "&2Dark Green"
+eglow_color.aqua: "&bAqua"
+eglow_color.darkaqua: "&3Dark aqua"
+eglow_color.blue: "&9Blue"
+eglow_color.darkblue: "&1Dark Blue"
+eglow_color.purple: "&5Purple"
+eglow_color.pink: "&dPink"
+eglow_color.white: "&fWhite"
+eglow_color.gray: "&7Gray"
+eglow_color.darkgray: "&8Dark gray"
+eglow_color.black: "&8Black"
+eglow_color.none: "&fNone"
+eglow_color.rainbowslow: "&cR&6a&ei&an&bb&9o&dw &6Slow"
+eglow_color.rainbowfast: "&cR&6a&ei&an&bb&9o&dw &aFast"
+eglow_color.effect-blink: "&eB&fl&ei&fn&ek"
+eglow_color.effect-rainbow: "&cR&6a&ei&an&bb&9o&dw"
+
+# EGlow custom effect
+eglow_color.test: "&7test"
+eglow_color.test2: "&8test2"
+
 HelpMessage:
   - "&5--------------------------------------"
   - "&dVisite &5https://www.2d2d.org/ &6para obtener más información"
@@ -114,7 +156,7 @@ TabList:
     - ""
   Footer:
     - ""
-    - "&dTPS:&b &r[&b%tps% &r] &dPing: &r[&b%ping %&r] &dPlayers: &r[&b%players%&r] &dHoras de trabajo: &r[&b%uptime%&r]"
+    - "&dTPS:&b &r[&b%tps% &r] &dPing: &r[&b%ping%&r] &dPlayers: &r[&b%players%&r] &dHoras de trabajo: &r[&b%uptime%&r]"
     - ""
     - "&7Comentarios: admin@2d2d.org"
     - "&7Discusión: https://ds .2d2d.org"
@@ -275,10 +317,10 @@ enderman-messages:
 silverfish-messages:
   - "&d%victim%&r&r fue devorado por &bWilm del Sena"
 witch-messages:
-  - "&d %victim%&r&r fue hechizado por la astuta &bWitch"
+  - "&d%victim%&r&r fue hechizado por la astuta &bWitch"
   - "&d%victim%&r&r fue convertido en rana por la vengativa &bWitch"
 shulker-messages:
-  - "&d %victim%&r&r murió tratando de conseguir algunos &proyectiles de dragón"
+  - "&d%victim%&r&r murió tratando de conseguir algunos &proyectiles de dragón"
   - "&d%victim%&r&r recibió un disparo de &dShulker"
   - "&d%victim%&r&r fue destruido &dShulker"
 guardian-messages:

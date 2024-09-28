@@ -72,6 +72,47 @@ framedupe_items_limit: "&5あります)このチャンク内のアイテムが�
 nbtPatch_deleted_item: "&5&6%s&r&5 はデータが重複しているためインベントリから削除されました"
 chest_cooldown: "&5チェストを開けるのが早すぎます。お待ちください。"
 chestlimiter_deleted_chest: "&5&6%s&r&5 チェストは、チャンクあたりの &5&6%s&r&5 チェストの最大数を超えたため削除されました"
+# EGlow
+eglow_disable_commands: "&cコマンドが無効になりました"
+eglow_sync_error: "&4構文エラー"
+eglow_disable: "&6光が無効になりました"
+eglow_same: "&eこの効果はすでに選択されています"
+eglow_set: "&a光の効果を正常に設定しました &b%s"
+eglow_not_permission_effect: "&c%s&r効果の権限がありません"
+
+# EGlow menu
+eglow_name_menu: "&6効果の選択:"
+eglow_menu_next_page: "&a次のページ"
+eglow_menu_pre_page: "&a前のページ"
+eglow_menu_disable_effect: "&c効果を無効にする"
+
+# EGlow Color
+eglow_color.red: "&c赤"
+eglow_color.darkred: "&4暗い赤"
+eglow_color.gold: "&6金"
+eglow_color.yellow: "&e黄"
+eglow_color.green: "&a緑"
+eglow_color.darkgreen: "&2暗い緑"
+eglow_color.aqua: "&bアクア"
+eglow_color.darkaqua: "&3暗いアクア"
+eglow_color.blue: "&9青"
+eglow_color.darkblue: "&1暗い青"
+eglow_color.purple: "&5紫"
+eglow_color.pink: "&dピンク"
+eglow_color.white: "&f白"
+eglow_color.gray: "&7灰色"
+eglow_color.darkgray: "&8暗い灰色"
+eglow_color.black: "&8黒"
+eglow_color.none: "&fなし"
+eglow_color.rainbowslow: "&cR&6a&ei&an&bb&9o&dw &6遅い"
+eglow_color.rainbowfast: "&cR&6a&ei&an&bb&9o&dw &a速い"
+eglow_color.effect-blink: "&eB&fl&ei&fn&ek"
+eglow_color.effect-rainbow: "&cR&6a&ei&an&bb&9o&dw"
+
+# EGlow custom effect
+eglow_color.test: "&7テスト"
+eglow_color.test2: "&8テスト2"
+
 HelpMessage:
   - "&5---------------------------------------"
   - "&d詳細については、&5https://www.2d2d.org/ にアクセスしてください"
@@ -114,7 +155,7 @@ TabList:
     - ""
   Footer:
     - ""
-    - "&dTPS:&b &r[&b%tps% &r] &dPing: &r[&b%ping %&r] &dPlayers: &r[&b%players%&r] &d勤務時間: &r[&b%uptime%&r]"
+    - "&dTPS:&b &r[&b%tps% &r] &dPing: &r[&b%ping%&r] &dPlayers: &r[&b%players%&r] &d勤務時間: &r[&b%uptime%&r]"
     - ""
     - "&7フィードバック: admin@2d2d.org"
     - "&7ディスカッション: https://ds .2d2d.org"
@@ -217,7 +258,7 @@ firework-messages:
   - "&d%victim%&r&r アマチュア花火の危険性を発見しました"
 slime-messages:
   - "&d%victim%&r&r &2ナメクジ"
-  - "&d%victim%&r&rが巨大な&2ナメクジに押しつぶされた&r&rスライムボールを集めているときに&2なめられて&r&r生きたまま食べられた&\2ゾンビ"
+  - "&d%victim%&r&rが巨大な&2ナメクジに押しつぶされた&r&rスライムボールを集めているときに&2なめられて&r&r生きたまま食べられた&2ゾンビ"
 zombie-messages:
   - "&d%victim%&r&r&r&2ゾンビは&r友好的だと思った"
   - "&d%victim%&r&r&r&bピグマンたちを怒らせた&ランドは彼らに生きたまま食べられました"
