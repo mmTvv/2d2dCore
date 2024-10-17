@@ -82,7 +82,8 @@ public class EGlowEffect {
                             }
 
                             for (EGlowPlayer player1 : DataManager.getEGlowPlayers()) {
-                                if (player.getPlayer().isListed(player1.getPlayer()) && player.getPlayer().getLocation().distance(player1.getPlayer().getLocation()) < 40) {
+                                if (player.getPlayer().isListed(player1.getPlayer()) && player.getPlayer().getWorld().equals(player1.getPlayer().getWorld())
+                                        && player.getPlayer().getLocation().distance(player1.getPlayer().getLocation()) < 40) {
                                     try {
                                         main.glowingEntities().setGlowing(player.getPlayer(), player1.getPlayer(), color);
                                     } catch (ReflectiveOperationException e) {

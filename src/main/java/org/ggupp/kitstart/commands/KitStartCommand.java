@@ -33,9 +33,19 @@ public class KitStartCommand implements TabExecutor  {
         }
 
         try {
-            double x = Double.parseDouble(args[1]);
-            double y = Double.parseDouble(args[2]);
-            double z = Double.parseDouble(args[3]);
+            if (args.length < 4) {
+                sender.sendMessage(translateChars("&cUsage: /command <setspawn|setCopyPos1|setCopyPos2> <x> <y> <z>"));
+                return true;
+            }
+            double x, y, z;
+            try {
+                x = Double.parseDouble(args[1]);
+                y = Double.parseDouble(args[2]);
+                z = Double.parseDouble(args[3]);
+            } catch (NumberFormatException e) {
+                sender.sendMessage(translateChars("&cPlease provide valid numerical coordinates."));
+                return true;
+            }
 
             Player player = (Player) sender;
             Location location = new Location(player.getWorld(), x, y, z);
